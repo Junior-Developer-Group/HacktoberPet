@@ -165,3 +165,87 @@ body {
 /********  👇 ADD YOUR OWN STYLES BELOW THIS COMMENT 👇 *********/
 /*********************************************************/
 
+/********************************BuddyCard*********************************/
+.buddyCard {
+	letter-spacing:0.05em;
+	width: 300px;
+  height: 400px;
+	border-radius:5px;
+	perspective: 1000px;
+}
+
+.buddyCardPivot {
+	border:0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+	border-radius:5px;
+}
+
+.buddyCard:hover .buddyCardPivot{
+  transform: rotateY(180deg);
+}
+
+.buddyCardFront, .buddyCardBack{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius:5px;
+  backface-visibility: hidden;
+  background-color: transparent;
+ 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.buddyCardFront {
+	background-color:#FAF9F6;
+  color: darkslategray;
+}
+
+.buddyCardBack{
+	margin:4px;
+	text-align:left;
+  background-color: #FAF9F6;
+  color:darkslategray;
+  transform: rotateY(180deg);
+}
+
+.buddy_image{
+	margin-top:12.8px;
+	border-radius:6px;
+	width:300px;
+	height:300px;
+	max-width:80%;
+	max-height:75%;
+}
+
+.buddyCardFront hr{
+	width:90%;
+	color:grey;
+ 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);}
+
+.buddyCard h1{
+	text-align:center;
+	margin:5px 5px;
+	font-size:32px;
+}
+
+.buddyCard ul{
+	font-size: 14px;
+	list-style: none;
+	padding:0;
+	margin:8px;
+}
+
+.buddyCard li{
+	margin:12px;
+	text-align:left;
+}
+
+.buddyCard p{
+	margin:20px;
+	font-size:14px;
+}
+/********************************BuddyCard*******************************/
