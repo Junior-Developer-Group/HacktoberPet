@@ -21,6 +21,9 @@
 
   <!-- FAVICON -->
   <link rel="icon" type="image/jpg" href="./assets/images/favicon.ico" />
+  
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- CSS STYLESHEET -->
   <link rel="stylesheet" href="./assets/styles/style.css" />
@@ -28,7 +31,7 @@
 
 <body>
 
-  <section class="header-introduction">
+  <section class="header-introduction" data-aos="fade-down" data-aos-duration="1000">
     <header class="header-content">
 
       <img src="./assets/images/logo.png" alt="Junior Developer Group | a butterfly with dotted wings">
@@ -42,24 +45,24 @@
   <section class="welcome-stranger">
 
     <div class="welcome-content">
-      <h1> Welcome 😊 </h1>
+      <h1 data-aos="fade-down" data-aos-delay="150" data-aos-duration="1000"> Welcome 😊 </h1>
 
-      <p>This page was set up as a simple front end challenge for
+      <p data-aos="fade-down" data-aos-delay="150" data-aos-duration="1000">This page was set up as a simple front end challenge for
         <a href="https://hacktoberfest.digitalocean.com/" target="_blank" noreferer>
           HacktoberFest 2021 event.
         </a>
       </p>
 
-      <p> The goal is to create your personal pet or favourite animal card, style it any way you'd like to and have fun
+      <p data-aos="fade-down" data-aos-delay="150" data-aos-duration="1000"> The goal is to create your personal pet or favourite animal card, style it any way you'd like to and have fun
         making it. </p>
 
-      <p>
+      <p data-aos="fade-down" data-aos-delay="150" data-aos-duration="1000">
         Before you start, please have a look at a couple of participation
         rules I've set up. Not following the set rules might get your pull
         request rejected.
       </p>
 
-      <div class="welcome-content__rules">
+      <div class="welcome-content__rules" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000">
         <details>
           <summary> Will Be Accepted:</summary>
 
@@ -87,7 +90,7 @@
   </section>
 
 
-  <section class="hacktoberfest-wrapper">
+  <section class="hacktoberfest-wrapper" data-aos="fade-down" data-aos-delay="400" data-aos-duration="1000">
     <!------------------------------------------------------------------------------------------------->
     <!-------------- 👇 ADD YOUR PET OR FAVOURITE ANIMAL CARD BELOW THIS COMMENT 👇  ------------------>
     <!------------------------------------------------------------------------------------------------->
@@ -118,9 +121,9 @@
 
 
   <!-- Scripts -->
-  <script src="./assets/scripts/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script type='text/javascript' src='./assets/scripts/joinUs.js'></script>
-
+  <script src="./assets/scripts/main.js"></script>
 </body>
 
 </html>
