@@ -1,0 +1,27 @@
+.contributor-section {
+  border-top: 1px solid lightgrey;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.contributor-cards {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 2em;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.macsCard {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 2em auto 0 auto;
+  max-width: 225px;
+  padding: 1em;
+}
+
+.macsCard:hover {
+  box-shadow: 0 3px 50px lightgrey;
+  border: none;
+}
