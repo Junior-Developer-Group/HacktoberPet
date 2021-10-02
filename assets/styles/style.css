@@ -345,9 +345,12 @@ body {
 .macsCard {
   border: 1px solid lightgrey;
   border-radius: 5px;
-  margin: 2em auto 0 auto;
   max-width: 225px;
   padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .macsCard:hover {
@@ -355,96 +358,14 @@ body {
   border: none;
 }
 
+.macs-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /******************************Macs Card**************************/
-
-.CoolDude69{
-
-    width: 300px;
-    height: 400px;
-    background-color: #f5f6f7;
-    box-shadow: -4px -2px 4px 0px #ffffff, 4px 2px 6px 0px #dfe4ea;
-    font-family: "Roboto", sans-serif;
-    position: relative;
-    overflow-x: hidden;
-  }
-  
-  .CoolDude69-head {
-    height: 44%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5rem;
-  }
-  
-  .CoolDude69-body {
-    text-align: center;
-  }
-  
-  .acc {
-    position: absolute;
-    z-index: 1;
-    font-size: 3.7rem;
-    color: #807e7e;
-    top: 5px;
-    left: 20px;
-  }
-  
-  .CoolDude69-name {
-    font-weight: 600;
-    font-size: 1.25rem;
-  }
-  
-  .CoolDude69-content {
-    margin-top: 5px;
-    font-size: 1rem;
-    font-weight: 500;
-    color: black;
-    opacity: 0.8;
-    padding-left: 0%;
-  }
-  
-  .CoolDude69-content ul {
-    margin-top: 15px;
-    display: inline-flex;
-    margin-right: 6px;
-    padding-left: 0%;
-  }
-  
-  .CoolDude69-content li {
-    list-style: none;
-  }
-  .profile-img{
-      padding-top: 100px;
-      border-radius: 15px;
-  }
-  
-  .btn-portfolio {
-    position: relative;
-    background: inherit;
-    outline: none;
-    border: none;
-    box-shadow: -4px -2px 4px 0px #ffffff, 4px 2px 6px 0px #dfe4ea;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #616161;
-    padding: 0.5rem 0.75rem;
-    margin-top: 0rem;
-  }
-  
-  .btn-portfolio:active::after,
-  .btn-portfolio:focus::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px 0px #dfe4ea inset, -2px -2px 2px 0px #ffffff inset;
-  }
-  
-  /******************************CoolDude69 Card**************************/
-  
 
 
   /*******************************************************/
