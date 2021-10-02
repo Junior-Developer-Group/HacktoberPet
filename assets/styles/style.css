@@ -340,3 +340,76 @@ body {
   
   /******************************CoolDude69 Card**************************/
   
+
+
+  /*******************************************************/
+  /**********************CATTHEW************************/
+  /*******************************************************/
+
+  .likiis-card {
+    height: 450px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .catthew-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+  }
+
+  .catthew-info {
+    display: none;
+  }
+
+  .likiis-card .catthew-image img {
+    position: relative;
+    top: 20px;
+    z-index: 5;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    transition: transform 0.9s;
+    border: 5px dashed teal;
+  }
+
+  .likiis-card:hover .catthew-image img { 
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: none;
+  }
+
+  .likiis-card:hover .catthew-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .catthew-info strong {
+    color: teal;
+  }
+
+  .catthew-info p {
+    margin: 5px;
+  }
+  /*************************************************************/
+  /**********************CATTHEW -- END ************************/
+  /*************************************************************/
+
+
+
