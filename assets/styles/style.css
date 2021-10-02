@@ -411,5 +411,47 @@ body {
   /**********************CATTHEW -- END ************************/
   /*************************************************************/
 
+  /*************************************************************/
+  /**********************Dusty -- Start ************************/
+  /*************************************************************/
+  .jeff-card {
+    height: 450px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    margin: 20px;
+    padding: 20px;
+  }
 
+  .dusty-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+  }
+
+  .jeff-card .dusty-image img {
+    position: abslute;
+    top: 20px;
+    z-index: 5;
+    height: 175px;
+    width: 175px;
+    border-radius: 100%;
+    border: 2px solid goldenrod;
+    }
+  .dusty-info strong {
+    color: #a69540;
+  }
+
+  .dusty-info p {
+    margin: 5px;
+  }
+    /*************************************************************/
+  /**********************Dusty -- END ************************/
+  /*************************************************************/
