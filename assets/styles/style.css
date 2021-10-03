@@ -755,6 +755,114 @@ body {
 	margin:auto;
 }
 /**************************** Shera End ******************************************/
+/* --------------------------------------------------------------
+----------------------------FLUFFY START--------------------------
+*/
+
+.myPetWrapper{
+
+    /* position : absolute;
+    left : 50%;
+    top : 50%;
+    transform : translate(-50%, -50%); */
+	margin-top : 20px;
+    width : 310px;
+    height : 500px;
+    background : lightgray;
+    background : linear-gradient(45deg, rgb(243, 84, 84), rgb(97, 206, 240), rgb(116, 197, 159));
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    border-radius : 12px;
+    box-shadow : 0 2px 15px rgba(100, 220, 236, 0.555),
+                 0 8px 25px rgba(96, 235, 253, 0.3);
+
+}
+
+.myPetCard {
+    width : 300px;
+    height : 490px;
+    background : white;
+    border-radius : 12px;
+    /* padding : 16px; */
+    text-align :left;
+    font-family : sans-serif;
+}
+
+.myPetImg {
+    width : 100%;
+    height : 200px;
+    background : url(/assets/images/fluffy1.jpg);
+    background-size : cover;
+    background-position: center;
+    background-repeat : no-repeat;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow : 0 2px 15px rgba(100, 220, 236, 0.555);
+}
+
+.myPetInfo {
+    padding : 0px 20px;
+}
+
+.petName {
+	margin : 0;
+    letter-spacing: 2px;
+    display : block;
+    padding : 15px 0px 5px 0px;
+    color : rgb(167, 167, 167);
+}
+
+.myPetInfo hr {
+    color : lightgray;
+    margin-bottom : 10px;
+}
+
+
+.petName-2 {
+    color :rgba(253, 101, 127, 0.801);
+}
+
+.myPetInfo p {
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    color : rgb(82, 82, 82);
+}
+
+.myPetInfo strong {
+    color : rgb(19, 19, 19);
+}
+
+.meetMyPet {
+    display : flex;
+    justify-content : center;
+	padding : 10px 0px 0px 0px;
+}
+
+.meetMyPet button {
+    width : 80%;
+    padding : 8px 0px;
+    outline : none;
+    background : none;
+    border : none;
+    border-radius : 5px;
+    position : relative;
+    box-shadow :0px 1px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color : rgba(253, 101, 127, 0.801);
+    letter-spacing: 2px;
+	transition : 0.2s ease-in-out;
+}
+
+.meetMeow:hover {
+	color : black;
+	box-shadow : 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+/* 
+-------------------------------------------------------------
+---------------------FLUFFY  END----------------------
+-------------------------------------------------------------
+*/
 
  /*******************************************************/
   /**********************NAPSER-start************************/
@@ -824,4 +932,5 @@ body {
   }
   /*************************************************************/
   /**********************NAPSER -- END ************************/
+  /*************************************************************/
   /*************************************************************/
