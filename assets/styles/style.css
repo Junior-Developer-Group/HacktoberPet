@@ -343,6 +343,48 @@ body {
 }
 /********************************BuddyCard*******************************/
 
+/********************** Adrian - Start ************************/
+
+.adrian-card {
+	height: 450px;
+	width: 300px;
+	border-radius: 6px;
+	box-shadow: 1px 4px 12px #c0c0c0, -1px -4px 12px #c0c0c0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 16px;
+	padding: 12px;
+}
+.jezebel-image {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 50%;
+	width: 100%;
+}
+.adrian-card .jezebel-image img {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+.adrian-card:hover {
+	box-shadow: 2px 6px 18px rgba(0, 0, 0, 0.3), -2px -6px 18px rgba(0, 0, 0, 0.3);
+}
+.adrian-card:hover .jezebel-image {
+	transform: scale(1.1);
+	border: 2px ridged #66add9;
+}
+.jezebel-info strong {
+	color: #ce1126;
+}
+.jezebel-info p {
+	margin: 2px;
+}
+/********************** Adrian - End ************************/
+
 /******************************CoolDude69 Card**************************/
 
 .CoolDude69 {
@@ -691,7 +733,6 @@ body {
 
 /***************************** Mingkay - End ********************************/
 
-
 /**************************** Shera-Star **************************************/
 .roshan
 {
@@ -714,3 +755,73 @@ body {
 	margin:auto;
 }
 /**************************** Shera End ******************************************/
+
+ /*******************************************************/
+  /**********************NAPSER-start************************/
+  /*******************************************************/
+
+  .mthakur-card {
+   width: 300px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   height: 450px; 
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .napser-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+  }
+
+  .napser-info {
+    display: none;
+  }
+
+  .mthakur-card .napser-image img {
+    position: relative;
+    top: 20px;
+    z-index: 5;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    transition: transform 0.9s;
+    border: 5px dashed teal;
+  }
+
+  .mthakur-card:hover .napser-image img { 
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: none;
+  }
+
+  .mthakur-card:hover .napser-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .napser-info strong {
+    color: teal;
+  }
+
+  .napser-info p {
+    margin: 5px;
+  }
+  /*************************************************************/
+  /**********************NAPSER -- END ************************/
+  /*************************************************************/
