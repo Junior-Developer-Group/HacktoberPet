@@ -654,3 +654,39 @@ body {
 .summary:hover {
 	cursor: pointer;
 }
+
+/***************************** Mingkay - Start ********************************/
+.card {
+	height: auto;
+}
+#title {
+	text-align: center;
+	color: darkslategray;
+	padding-top: 10px;
+	margin: 0;
+}
+.image-mingkay {
+	padding: 30px
+}
+.mingkay-pic{
+	width: 100%;
+	height: 100%;
+	border: 3px solid darkslategray;
+	object-fit: cover;
+	
+}
+#details {
+	text-align: center;
+	color: darkslategray;
+	padding: 0 30px 30px 30px;
+	display: none;
+}
+.card:hover {
+	height: auto;
+}
+.card:hover #details {
+	display: block;
+	height: auto;
+}
+
+/***************************** Mingkay - End ********************************/
