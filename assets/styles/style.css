@@ -343,6 +343,48 @@ body {
 }
 /********************************BuddyCard*******************************/
 
+/********************** Adrian - Start ************************/
+
+.adrian-card {
+	height: 450px;
+	width: 300px;
+	border-radius: 6px;
+	box-shadow: 1px 4px 12px #c0c0c0, -1px -4px 12px #c0c0c0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 16px;
+	padding: 12px;
+}
+.jezebel-image {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 50%;
+	width: 100%;
+}
+.adrian-card .jezebel-image img {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+.adrian-card:hover {
+	box-shadow: 2px 6px 18px rgba(0, 0, 0, 0.3), -2px -6px 18px rgba(0, 0, 0, 0.3);
+}
+.adrian-card:hover .jezebel-image {
+	transform: scale(1.1);
+	border: 2px ridged #66add9;
+}
+.jezebel-info strong {
+	color: #ce1126;
+}
+.jezebel-info p {
+	margin: 2px;
+}
+/********************** Adrian - End ************************/
+
 /******************************CoolDude69 Card**************************/
 
 .CoolDude69 {
