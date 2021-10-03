@@ -367,122 +367,198 @@ body {
 
 /******************************Macs Card**************************/
 
+/*******************************************************/
+/**********************CATTHEW************************/
+/*******************************************************/
 
-  /*******************************************************/
-  /**********************CATTHEW************************/
-  /*******************************************************/
+.likiis-card {
+  height: 450px;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
-  .likiis-card {
-    height: 450px;
-    width: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    margin: 20px;
-    padding: 20px;
-  }
+  margin: 20px;
+  padding: 20px;
+}
 
-  .catthew-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-    width: 100%;
-  }
+.catthew-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+}
 
-  .catthew-info {
-    display: none;
-  }
+.catthew-info {
+  display: none;
+}
 
-  .likiis-card .catthew-image img {
-    position: relative;
-    top: 20px;
-    z-index: 5;
-    height: 250px;
-    width: 250px;
-    border-radius: 100%;
-    transition: transform 0.9s;
-    border: 5px dashed teal;
-  }
+.likiis-card .catthew-image img {
+  position: relative;
+  top: 20px;
+  z-index: 5;
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  transition: transform 0.9s;
+  border: 5px dashed teal;
+}
 
-  .likiis-card:hover .catthew-image img { 
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    border: none;
-  }
+.likiis-card:hover .catthew-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: none;
+}
 
-  .likiis-card:hover .catthew-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 50%;
-    width: 100%;
-    margin-top: 30px;
-  }
+.likiis-card:hover .catthew-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+  margin-top: 30px;
+}
 
-  .catthew-info strong {
-    color: teal;
-  }
+.catthew-info strong {
+  color: teal;
+}
 
-  .catthew-info p {
-    margin: 5px;
-  }
-  /*************************************************************/
-  /**********************CATTHEW -- END ************************/
-  /*************************************************************/
+.catthew-info p {
+  margin: 5px;
+}
+/*************************************************************/
+/**********************CATTHEW -- END ************************/
+/*************************************************************/
 
-  /*************************************************************/
-  /**********************Dusty -- Start ************************/
-  /*************************************************************/
-  .jeff-card {
-    height: 450px;
-    width: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/*************************************************************/
+/**********************Dusty -- Start ************************/
+/*************************************************************/
+.jeff-card {
+  height: 450px;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    margin: 20px;
-    padding: 20px;
-  }
+  margin: 20px;
+  padding: 20px;
+}
 
-  .dusty-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-    width: 100%;
-  }
+.dusty-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+}
 
-  .jeff-card .dusty-image img {
-    position: abslute;
-    top: 20px;
-    z-index: 5;
-    height: 175px;
-    width: 175px;
-    border-radius: 100%;
-    border: 2px solid goldenrod;
-    }
-  .dusty-info strong {
-    color: #a69540;
-  }
+.jeff-card .dusty-image img {
+  position: abslute;
+  top: 20px;
+  z-index: 5;
+  height: 175px;
+  width: 175px;
+  border-radius: 100%;
+  border: 2px solid goldenrod;
+}
+.dusty-info strong {
+  color: #a69540;
+}
 
-  .dusty-info p {
-    margin: 5px;
-  }
-    /*************************************************************/
-  /**********************Dusty -- END ************************/
-  /*************************************************************/
+.dusty-info p {
+  margin: 5px;
+}
+/*************************************************************/
+/**********************Dusty -- END ************************/
+/*************************************************************/
 
-.summary:hover{
+/*************************************************************/
+/**********************Simbi -- Start ************************/
+/*************************************************************/
+.card {
+  border-radius: 15px;
+  display: inline-block;
+  height: 280px;
+  max-width: 350px;
+  margin: 20px 20px;
+  background: white;
+  transition: 0.4s;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+}
 
+.card:hover {
+  height: 480px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card .img-container {
+  height: 200px;
+  width: 100%;
+}
+
+.card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card .top-text {
+  padding: 5px;
+}
+
+.simbi-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #202020;
+  padding: 3px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.top-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #e74c3c;
+  line-height: 20px;
+  padding: 3px;
+}
+
+.card .bottom-text {
+  padding: 0 20px 10px 20px;
+  margin-top: 15px;
+  background: white;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.1s;
+}
+
+.card:hover .bottom-text {
+  opacity: 1;
+  visibility: visible;
+}
+.card-text {
+  text-align: justify;
+}
+.intro-txt {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.about-txt {
+  font-size: 1.1rem;
+  margin-top: -20px;
+}
+/*************************************************************/
+/**********************Simbi -- End ************************/
+/*************************************************************/
+.summary:hover {
   cursor: pointer;
 }
