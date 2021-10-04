@@ -343,6 +343,48 @@ body {
 }
 /********************************BuddyCard*******************************/
 
+/********************** Adrian - Start ************************/
+
+.adrian-card {
+	height: 450px;
+	width: 300px;
+	border-radius: 6px;
+	box-shadow: 1px 4px 12px #c0c0c0, -1px -4px 12px #c0c0c0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 16px;
+	padding: 12px;
+}
+.jezebel-image {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 50%;
+	width: 100%;
+}
+.adrian-card .jezebel-image img {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+.adrian-card:hover {
+	box-shadow: 2px 6px 18px rgba(0, 0, 0, 0.3), -2px -6px 18px rgba(0, 0, 0, 0.3);
+}
+.adrian-card:hover .jezebel-image {
+	transform: scale(1.1);
+	border: 2px ridged #66add9;
+}
+.jezebel-info strong {
+	color: #ce1126;
+}
+.jezebel-info p {
+	margin: 2px;
+}
+/********************** Adrian - End ************************/
+
 /******************************CoolDude69 Card**************************/
 
 .CoolDude69 {
@@ -775,4 +817,243 @@ body {
 
 /*************************************************************/
 /**********************Ruman -- End ************************/
+
+
 /*************************************************************/
+/***************************** Mingkay - Start ********************************/
+.card {
+	height: auto;
+}
+#title {
+	text-align: center;
+	color: darkslategray;
+	padding-top: 10px;
+	margin: 0;
+}
+.image-mingkay {
+	padding: 30px
+}
+.mingkay-pic{
+	width: 100%;
+	height: 100%;
+	border: 3px solid darkslategray;
+	object-fit: cover;
+	
+}
+#details {
+	text-align: center;
+	color: darkslategray;
+	padding: 0 30px 30px 30px;
+	display: none;
+}
+.card:hover {
+	height: auto;
+}
+.card:hover #details {
+	display: block;
+	height: auto;
+}
+
+/***************************** Mingkay - End ********************************/
+
+/**************************** Shera-Star **************************************/
+.roshan
+{
+	height: auto;
+	background-color: lightgray;
+	border-radius: 16px;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+}
+.roshan1
+{
+	border-radius: 16px;
+}
+#detail-shera
+{
+	padding:5px 20px;
+}
+.kilas
+{
+	padding:0px 125px;
+	margin:auto;
+}
+/**************************** Shera End ******************************************/
+/* --------------------------------------------------------------
+----------------------------FLUFFY START--------------------------
+*/
+
+.myPetWrapper{
+
+    /* position : absolute;
+    left : 50%;
+    top : 50%;
+    transform : translate(-50%, -50%); */
+	margin-top : 20px;
+    width : 310px;
+    height : 500px;
+    background : lightgray;
+    background : linear-gradient(45deg, rgb(243, 84, 84), rgb(97, 206, 240), rgb(116, 197, 159));
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    border-radius : 12px;
+    box-shadow : 0 2px 15px rgba(100, 220, 236, 0.555),
+                 0 8px 25px rgba(96, 235, 253, 0.3);
+
+}
+
+.myPetCard {
+    width : 300px;
+    height : 490px;
+    background : white;
+    border-radius : 12px;
+    /* padding : 16px; */
+    text-align :left;
+    font-family : sans-serif;
+}
+
+.myPetImg {
+    width : 100%;
+    height : 200px;
+    background : url(/assets/images/fluffy1.jpg);
+    background-size : cover;
+    background-position: center;
+    background-repeat : no-repeat;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow : 0 2px 15px rgba(100, 220, 236, 0.555);
+}
+
+.myPetInfo {
+    padding : 0px 20px;
+}
+
+.petName {
+	margin : 0;
+    letter-spacing: 2px;
+    display : block;
+    padding : 15px 0px 5px 0px;
+    color : rgb(167, 167, 167);
+}
+
+.myPetInfo hr {
+    color : lightgray;
+    margin-bottom : 10px;
+}
+
+
+.petName-2 {
+    color :rgba(253, 101, 127, 0.801);
+}
+
+.myPetInfo p {
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    color : rgb(82, 82, 82);
+}
+
+.myPetInfo strong {
+    color : rgb(19, 19, 19);
+}
+
+.meetMyPet {
+    display : flex;
+    justify-content : center;
+	padding : 10px 0px 0px 0px;
+}
+
+.meetMyPet button {
+    width : 80%;
+    padding : 8px 0px;
+    outline : none;
+    background : none;
+    border : none;
+    border-radius : 5px;
+    position : relative;
+    box-shadow :0px 1px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color : rgba(253, 101, 127, 0.801);
+    letter-spacing: 2px;
+	transition : 0.2s ease-in-out;
+}
+
+.meetMeow:hover {
+	color : black;
+	box-shadow : 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+/* 
+-------------------------------------------------------------
+---------------------FLUFFY  END----------------------
+-------------------------------------------------------------
+*/
+
+ /*******************************************************/
+  /**********************NAPSER-start************************/
+  /*******************************************************/
+
+  .mthakur-card {
+   width: 300px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   height: 450px; 
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .napser-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+  }
+
+  .napser-info {
+    display: none;
+  }
+
+  .mthakur-card .napser-image img {
+    position: relative;
+    top: 20px;
+    z-index: 5;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    transition: transform 0.9s;
+    border: 5px dashed teal;
+  }
+
+  .mthakur-card:hover .napser-image img { 
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: none;
+  }
+
+  .mthakur-card:hover .napser-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .napser-info strong {
+    color: teal;
+  }
+
+  .napser-info p {
+    margin: 5px;
+  }
+  /*************************************************************/
+  /**********************NAPSER -- END ************************/
+  /*************************************************************/
+  /*************************************************************/
