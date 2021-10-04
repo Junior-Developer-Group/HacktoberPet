@@ -697,6 +697,129 @@ body {
 	cursor: pointer;
 }
 
+/*************************************************************/
+/**********************Ruman -- Start ************************/
+/*************************************************************/
+
+.rumans-card {
+	width: 320px;
+  	height: 590px;
+  	position: relative;
+  	margin: 20px;
+}
+
+.ruman-image-container{
+	width: 85%;
+  	position: absolute;
+	left: 0;
+	right: 0;
+  	top: 0;
+  	z-index: 9999;
+	
+	margin: 0 auto;
+}
+
+.ruman-card-pet-image{
+	width: 100%;
+	border-radius: 0px 0px 5px 5px;
+  	box-shadow: 0 5px 20px 2px rgb(163 132 102);
+}
+
+.rumans-card:hover .ruman-card-details{
+	opacity: 1;
+	animation: bounce 0.6s linear;
+}
+
+.ruman-image-container:hover{
+	animation: slide-down 1.5s;
+}
+
+.ruman-card-details{
+	background: #fff;
+	width: 100%;
+	min-height: 550px;
+	align-items: center;
+	border-radius: 0px 0px 5px 5px;
+	position: absolute;
+	top: 20px;
+	box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+	opacity: 0;
+}
+
+.ruman-card-details-content{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.ruman-card-details-content-header{
+	font-size: x-large;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+
+	color: #616161;
+}
+
+.ruman-card-details-content-description{
+	padding: 20px;
+	padding-top: 10px;
+}
+
+@keyframes slide-down {
+	0% {transform: translateY(0px);}
+	50% {transform: translateY(4px);}
+	100% {transform: translateY(0px);}
+
+}
+
+@keyframes bounce {
+	0%,
+	20%,
+	40%,
+	60%,
+	80%,
+	to {
+		-webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+	}
+	0% {
+		opacity: 0;
+		-webkit-transform: scale3d(0.3, 0.3, 0.3);
+		transform: scale3d(0.3, 0.3, 0.3);
+	}
+	20% {
+		-webkit-transform: scale3d(1.03, 1.03, 1.03);
+		transform: scale3d(1.03, 1.03, 1.03);
+	}
+	40% {
+		-webkit-transform: scale3d(0.9, 0.9, 0.9);
+		transform: scale3d(0.9, 0.9, 0.9);
+	}
+	60% {
+		opacity: 1;
+		-webkit-transform: scale3d(1.01, 1.01, 1.01);
+		transform: scale3d(1.01, 1.01, 1.01);
+	}
+	80% {
+		-webkit-transform: scale3d(0.97, 0.97, 0.97);
+		transform: scale3d(0.97, 0.97, 0.97);
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: scaleX(1);
+		transform: scaleX(1);
+	}
+}
+
+/*************************************************************/
+/**********************Ruman -- End ************************/
+
+
+/*************************************************************/
 /***************************** Mingkay - Start ********************************/
 .card {
 	height: auto;
