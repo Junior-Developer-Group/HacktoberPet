@@ -1360,3 +1360,83 @@ button.my-git:hover {
 |------------------------------JAY STYLES END--------------------------------|
 |----------------------------------------------------------------------------|
 */
+
+
+
+/*
+|----------------------------------------------------------------------------|
+|-------------------------------FIXWAD DARK STYLES---------------------------|
+|----------------------------------------------------------------------------|
+*/
+
+.fixwad-wrapper {
+  transition: .3s;
+}
+
+.fixwad-wrapper:hover {
+  transform: scale(1.01);
+  box-shadow: 4px 4px 30px rgba(31, 30, 43, 0.3);
+}
+
+.fixwad-wrapper .devider {
+  height: 1px;
+  background-color: #FFF0E3;
+  margin-bottom: 12px;
+}
+
+.fixwad-card {
+  width: 300px;
+  min-height: 450px;
+  background: linear-gradient(156.04deg, #282634 0%, #1C1A27 100%);
+  border-radius: 14px;
+  border: 5px solid #F88E00;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.fixwad-biodata {
+  margin-bottom: 20px;
+}
+
+.fixwad-card-image {
+  width: 178px;
+  height: 178px;
+  margin: 7px auto 24px auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #FAFAFA;
+}
+
+.fixwad-card-body .name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFCC9D;
+}
+
+.fixwad-card-body p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #FAFAFA;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.fixwad-button {
+  display: inline-block;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  background: linear-gradient(91.22deg, #FF8A48 0%, #FF7070 100%);
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/*
+|----------------------------------------------------------------------------|
+|---------------------------END FIXWAD DARK STYLES---------------------------|
+|----------------------------------------------------------------------------|
+*/
