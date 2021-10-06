@@ -347,6 +347,7 @@ body {
   height: 400px;
   border-radius: 5px;
   perspective: 1000px;
+  margin: 20px;
 }
 
 .buddyCardPivot {
@@ -569,6 +570,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 20px;
 }
 
 .macsCard:hover {
@@ -1156,6 +1158,7 @@ body {
 
 .rocky-cont {
   max-width: 300px;
+  margin: 20px;
 }
 
 div.rocky-card {
@@ -1251,6 +1254,7 @@ button.my-git:hover {
   width: 300px;
   height: 200px;
   perspective: 500px;
+  margin: 20px;
 }
 
 .nikki_card {
@@ -1295,10 +1299,7 @@ button.my-git:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.dog-card-main {
-  height: 100vh;
+  margin: 20px;
 }
 
 .dog-card-box {
@@ -1441,7 +1442,7 @@ button.my-git:hover {
 /* -----------------sumit Style start --------------------- */
 .Chitti-card {
   border-radius: 16px;
-  margin: 0 auto;
+  margin:20px;
   width: 350px;
   height: 300px;
   max-width: 100%;
@@ -1519,6 +1520,7 @@ button.my-git:hover {
 
 .fixwad-wrapper {
   transition: 0.3s;
+  margin: 20px;
 }
 
 .fixwad-wrapper:hover {
@@ -1593,6 +1595,7 @@ button.my-git:hover {
 .pet-container {
   width: 100%;
   max-width: 300px;
+  margin: 20px;
 }
 
 .pet-card {
