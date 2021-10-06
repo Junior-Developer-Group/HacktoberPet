@@ -258,6 +258,89 @@ body {
 
 /******************************A-amon Card**************************/
 
+/******************************oreo-card*****************************/
+.oreo-card {
+  background-image: url('../images/oreo.jpg');
+  color: white;
+  background-size: cover;
+  padding: 10rem 0 0;
+  margin: 1em 0;
+  max-width: 320px;
+  border: 1px solid;
+  border-radius: 10px;
+  text-shadow: 4px 2px 12px rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+
+  transition: transform 500ms ease;
+}
+
+.oreo-card:hover {
+  transform: scale(1.05);
+}
+
+.oreo-content {
+  padding: 1.5em;
+  background: linear-gradient(
+    hsl(0 0% 0% / 0),
+    hsl(20 0% 0% / 0.3) 20%, 
+    hsl(0 0% 0% / 1)
+  );
+
+}
+
+.oreo-title {
+  position: relative;
+}
+
+.oreo-title::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: rgb(255, 102, 0);
+  bottom: -3px;
+  left: 0;
+
+  transition: transform 500ms ease;
+}
+
+.oreo-card:hover .oreo-title::after{
+  transform: scale(1);
+}
+
+.oreo-body {
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+@media (hover) {
+  .oreo-content {
+    transform: translateY(58%);
+    transition: transform 500ms ease;
+  }
+
+  .oreo-card:hover .oreo-content{
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+  
+  .oreo-content > *:not(.oreo-title) {
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
+  
+  .oreo-card:hover .oreo-content > *:not(.oreo-title) {
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+
+  .oreo-title::after {
+    transform: scaleX(0);
+  }
+}
+
+/******************************oreo-card*****************************/
+
 /********************************BuddyCard*********************************/
 .buddyCard {
   letter-spacing: 0.05em;
