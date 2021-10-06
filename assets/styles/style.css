@@ -9,8 +9,8 @@ body {
   display: flex;
   flex-direction: column;
 
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   justify-content: center;
   align-items: center;
 }
@@ -182,7 +182,7 @@ body {
 * A-amon Card OVERLAY
 */
 .amon-card::after {
-  content: "";
+  content: '';
   width: 100%;
   position: absolute;
   top: 0;
@@ -282,10 +282,9 @@ body {
   padding: 1.5em;
   background: linear-gradient(
     hsl(0 0% 0% / 0),
-    hsl(20 0% 0% / 0.3) 20%, 
+    hsl(20 0% 0% / 0.3) 20%,
     hsl(0 0% 0% / 1)
   );
-
 }
 
 .oreo-title {
@@ -304,7 +303,7 @@ body {
   transition: transform 500ms ease;
 }
 
-.oreo-card:hover .oreo-title::after{
+.oreo-card:hover .oreo-title::after {
   transform: scale(1);
 }
 
@@ -319,16 +318,16 @@ body {
     transition: transform 500ms ease;
   }
 
-  .oreo-card:hover .oreo-content{
+  .oreo-card:hover .oreo-content {
     transform: translateY(0);
     transition-delay: 500ms;
   }
-  
+
   .oreo-content > *:not(.oreo-title) {
     opacity: 0;
     transition: opacity 500ms linear;
   }
-  
+
   .oreo-card:hover .oreo-content > *:not(.oreo-title) {
     opacity: 1;
     transition-delay: 1000ms;
@@ -477,7 +476,7 @@ body {
   height: 400px;
   background-color: #f5f6f7;
   box-shadow: -4px -2px 4px 0px #ffffff, 4px 2px 6px 0px #dfe4ea;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   position: relative;
   overflow-x: hidden;
 }
@@ -547,7 +546,7 @@ body {
 
 .btn-portfolio:active::after,
 .btn-portfolio:focus::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -1249,7 +1248,7 @@ button.my-git:hover {
 /*************************************************************/
 
 .nikki_container {
-  width: 300px;;
+  width: 300px;
   height: 200px;
   perspective: 500px;
 }
@@ -1263,12 +1262,9 @@ button.my-git:hover {
   transform-style: preserve-3d;
 }
 
-
 .nikki_card.nikki_is_flipped {
   transform: rotateY(180deg);
-  
 }
-
 
 .nikki_front,
 .nikki_back {
@@ -1276,12 +1272,10 @@ button.my-git:hover {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  
 }
 
-
 .nikki_back {
-  background-color:rgb(136, 34, 161);
+  background-color: rgb(136, 34, 161);
   color: rgba(247, 239, 239, 0.959);
   font-family: Arial, Helvetica, sans-serif;
   transform: rotateY(180deg);
@@ -1343,7 +1337,7 @@ button.my-git:hover {
   border: 1px solid rgb(155, 155, 155);
   border-radius: 5px;
   padding: 5px 10px;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: bold;
   margin: 4px 4px 4px 0;
 }
@@ -1359,7 +1353,7 @@ button.my-git:hover {
   color: rgb(70, 70, 70);
   font-size: 1.6rem;
   cursor: pointer;
-  transition: all .8s;
+  transition: all 0.8s;
 }
 
 .arr_container img {
@@ -1378,7 +1372,7 @@ button.my-git:hover {
   height: 100%;
   border-radius: 23px;
   padding: 40px 0 0 20px;
-  transition: all .8s;
+  transition: all 0.8s;
 }
 
 .off {
@@ -1411,7 +1405,7 @@ button.my-git:hover {
   width: 36px;
   height: 36px;
   margin-right: 10px;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .left_container .icons img:hover {
@@ -1429,7 +1423,7 @@ button.my-git:hover {
   color: rgb(70, 70, 70);
   font-size: 1.6rem;
   cursor: pointer;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .cancel img {
@@ -1444,7 +1438,6 @@ button.my-git:hover {
 |----------------------------------------------------------------------------|
 */
 
-
 /* -----------------sumit Style start --------------------- */
 .Chitti-card {
   border-radius: 16px;
@@ -1454,8 +1447,7 @@ button.my-git:hover {
   max-width: 100%;
   min-height: 500px;
   box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
-    0px 5px 8px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
   overflow: hidden;
   background-size: cover;
 }
@@ -1478,9 +1470,7 @@ button.my-git:hover {
   width: 100%;
   height: 500px;
   background-color: #fff;
-  transform: translateY(100%)
-    translateY(-88px)
-    translateZ(0);
+  transform: translateY(100%) translateY(-88px) translateZ(0);
   transition: transform 0.5s ease-out;
 }
 
@@ -1495,9 +1485,7 @@ button.my-git:hover {
   filter: blur(10px);
   background-size: cover;
   opacity: 0.25;
-  transform: translateY(-100%)
-    translateY(88px)
-    translateZ(0);
+  transform: translateY(-100%) translateY(88px) translateZ(0);
   transition: transform 0.5s ease-out;
 }
 
@@ -1521,10 +1509,7 @@ button.my-git:hover {
   line-height: 1.5;
 }
 
-
 /* -----------sumit style end ----------------------------- */
-
-
 
 /*
 |----------------------------------------------------------------------------|
@@ -1533,7 +1518,7 @@ button.my-git:hover {
 */
 
 .fixwad-wrapper {
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .fixwad-wrapper:hover {
@@ -1543,16 +1528,16 @@ button.my-git:hover {
 
 .fixwad-wrapper .devider {
   height: 1px;
-  background-color: #FFF0E3;
+  background-color: #fff0e3;
   margin-bottom: 12px;
 }
 
 .fixwad-card {
   width: 300px;
   min-height: 450px;
-  background: linear-gradient(156.04deg, #282634 0%, #1C1A27 100%);
+  background: linear-gradient(156.04deg, #282634 0%, #1c1a27 100%);
   border-radius: 14px;
-  border: 5px solid #F88E00;
+  border: 5px solid #f88e00;
   box-sizing: border-box;
   padding: 30px;
 }
@@ -1567,20 +1552,20 @@ button.my-git:hover {
   margin: 7px auto 24px auto;
   border-radius: 50%;
   overflow: hidden;
-  border: 3px solid #FAFAFA;
+  border: 3px solid #fafafa;
 }
 
 .fixwad-card-body .name {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
-  color: #FFCC9D;
+  color: #ffcc9d;
 }
 
 .fixwad-card-body p {
   font-size: 14px;
   line-height: 20px;
-  color: #FAFAFA;
+  color: #fafafa;
   margin: 0;
   margin-bottom: 4px;
 }
@@ -1591,7 +1576,7 @@ button.my-git:hover {
   height: 35px;
   text-align: center;
   line-height: 35px;
-  background: linear-gradient(91.22deg, #FF8A48 0%, #FF7070 100%);
+  background: linear-gradient(91.22deg, #ff8a48 0%, #ff7070 100%);
   font-size: 14px;
   color: white;
   text-decoration: none;
@@ -1604,3 +1589,44 @@ button.my-git:hover {
 |----------------------------------------------------------------------------|
 */
 
+/* *************** DINESH STYLES START ************** */
+.pet-container {
+  width: 100%;
+  max-width: 300px;
+}
+
+.pet-card {
+  box-shadow: 0 0 20px 0 rgb(224, 220, 220);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.pet-image img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.pet-content {
+  padding: 1em;
+}
+
+.pet-author-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pet-author-info a {
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pet-author-info img {
+  width: 30%;
+  display: block;
+  object-fit: cover;
+}
+/* *************** DINESH STYLES END ************** */
