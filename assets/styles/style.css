@@ -9,8 +9,8 @@ body {
   display: flex;
   flex-direction: column;
 
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   justify-content: center;
   align-items: center;
 }
@@ -182,7 +182,7 @@ body {
 * A-amon Card OVERLAY
 */
 .amon-card::after {
-  content: "";
+  content: '';
   width: 100%;
   position: absolute;
   top: 0;
@@ -394,7 +394,7 @@ body {
   height: 400px;
   background-color: #f5f6f7;
   box-shadow: -4px -2px 4px 0px #ffffff, 4px 2px 6px 0px #dfe4ea;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   position: relative;
   overflow-x: hidden;
 }
@@ -464,7 +464,7 @@ body {
 
 .btn-portfolio:active::after,
 .btn-portfolio:focus::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -1166,7 +1166,7 @@ button.my-git:hover {
 /*************************************************************/
 
 .nikki_container {
-  width: 300px;;
+  width: 300px;
   height: 200px;
   perspective: 500px;
 }
@@ -1180,12 +1180,9 @@ button.my-git:hover {
   transform-style: preserve-3d;
 }
 
-
 .nikki_card.nikki_is_flipped {
   transform: rotateY(180deg);
-  
 }
-
 
 .nikki_front,
 .nikki_back {
@@ -1193,12 +1190,10 @@ button.my-git:hover {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  
 }
 
-
 .nikki_back {
-  background-color:rgb(136, 34, 161);
+  background-color: rgb(136, 34, 161);
   color: rgba(247, 239, 239, 0.959);
   font-family: Arial, Helvetica, sans-serif;
   transform: rotateY(180deg);
@@ -1260,7 +1255,7 @@ button.my-git:hover {
   border: 1px solid rgb(155, 155, 155);
   border-radius: 5px;
   padding: 5px 10px;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: bold;
   margin: 4px 4px 4px 0;
 }
@@ -1276,7 +1271,7 @@ button.my-git:hover {
   color: rgb(70, 70, 70);
   font-size: 1.6rem;
   cursor: pointer;
-  transition: all .8s;
+  transition: all 0.8s;
 }
 
 .arr_container img {
@@ -1295,7 +1290,7 @@ button.my-git:hover {
   height: 100%;
   border-radius: 23px;
   padding: 40px 0 0 20px;
-  transition: all .8s;
+  transition: all 0.8s;
 }
 
 .off {
@@ -1328,7 +1323,7 @@ button.my-git:hover {
   width: 36px;
   height: 36px;
   margin-right: 10px;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .left_container .icons img:hover {
@@ -1346,7 +1341,7 @@ button.my-git:hover {
   color: rgb(70, 70, 70);
   font-size: 1.6rem;
   cursor: pointer;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .cancel img {
@@ -1360,3 +1355,77 @@ button.my-git:hover {
 |------------------------------JAY STYLES END--------------------------------|
 |----------------------------------------------------------------------------|
 */
+/* ************************************************** */
+/* *************** DINESH STYLES START ************** */
+/* ************************************************** */
+.pet-container {
+  width: 100%;
+  max-width: 300px;
+  transition: all 0.3s ease-in;
+}
+
+.pet-container:hover {
+  box-shadow: 0 0 25px 0 rgb(187, 179, 179);
+}
+
+.pet-container:hover .wave {
+  display: inline-block;
+  animation: wave 0.5s ease-in infinite;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-20deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.pet-card {
+  box-shadow: 0 0 20px 0 rgb(224, 220, 220);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.pet-image img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.pet-content {
+  padding: 1em;
+}
+
+.pet-author-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pet-author-info a {
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pet-author-info img {
+  width: 30%;
+  display: block;
+  object-fit: cover;
+}
+/* ************************************************ */
+/* *************** DINESH STYLES END ************** */
+/* ************************************************ */
