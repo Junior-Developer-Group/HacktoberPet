@@ -1870,3 +1870,76 @@ button.my-git:hover {
 |---------------------------RAMBO STYLE END---------------------------|
 |----------------------------------------------------------------------------|
 */
+
+/*=== TIGGER STYLE START ===*/
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.cat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  background-color: hsl(225, 100%, 97%);
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  padding-bottom: 2em;
+  box-shadow: 5px 5px 10px black;
+}
+
+.header {
+  border-radius: 2em;
+}
+
+.header img {
+  width: 100%;
+  border: none;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 1em;
+  padding: 1em 0.5em;
+  color: #916bbf;
+}
+.title h1:hover {
+  transform: scale(1.2);
+  color: #1c0c5b;
+}
+
+.info {
+  display: flex;
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(224, 23%, 55%);
+  text-align: left;
+  margin-top: 1em;
+  line-height: 2em;
+}
+/*=== TIGGER STYLE END ===*
