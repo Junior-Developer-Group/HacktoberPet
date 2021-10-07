@@ -165,6 +165,9 @@ body {
 /*********************************************************/
 
 /******************************A-amon Card**************************/
+/*
+* SimretB05
+*/
 .amon-card {
 	width: 100%;
 	max-width: 350px;
@@ -174,6 +177,90 @@ body {
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 	position: relative;
 	margin: 1rem;
+}
+.card-cho {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 300px;
+	height: 500px;
+	border-radius: 15px;
+	box-shadow: 0px 4px 4px 4px rgba(2, 1, 1, 0.2);
+	border: 1px solid rgba(241, 238, 238, 0.2);
+	margin: 1rem;
+}
+.card-cho:hover {
+	box-shadow: 0px 4px 4px 4px rgba(3, 92, 51, 0.2);
+	border: 1px solid rgba(241, 238, 238, 0.2);
+}
+.card-cho__container {
+	display: flex;
+	overflow: hidden;
+	margin: 1rem;
+	width: 100%;
+	max-width: 290px;
+	height: 400px;
+	transition: all 0.3s ease;
+	border-radius: 5px;
+}
+
+.card-cho__img {
+	display: none;
+	transition: all 0.3s ease;
+}
+.card-cho__image {
+}
+.show {
+	display: block;
+}
+
+.card-cho__content {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+}
+
+.card-cho__text {
+	width: 100%;
+	max-width: 250px;
+	text-align: center;
+}
+.card-cho__text-2 {
+	display: none;
+}
+.btn-container {
+	width: 90%;
+	height: 100px;
+	display: flex;
+	margin: 2rem;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+.btn {
+	text-align: center;
+	color: black;
+	width: 80px;
+	padding: 0.5rem;
+	font-size: 12px;
+	border-radius: 25px;
+	box-shadow: 0px 4px 4px rgba(10, 235, 58, 0.2);
+	border: 1px solid rgba(241, 238, 238, 0.2);
+	text-decoration: none;
+	cursor: pointer;
+	transform: scaleX(1);
+	transition: all 0.2s;
+}
+.btn:hover {
+	transform: scaleX(1.1);
+	background-color: green;
+	color: honeydew;
+	box-shadow: 0px 4px 4px rgba(16, 233, 124, 0.2);
+	border: 1px solid rgba(22, 219, 121, 0.2);
 }
 
 /*
@@ -708,14 +795,13 @@ body {
 	margin: 0;
 }
 .image-mingkay {
-	padding: 30px
+	padding: 30px;
 }
-.mingkay-pic{
+.mingkay-pic {
 	width: 100%;
 	height: 100%;
 	border: 3px solid darkslategray;
 	object-fit: cover;
-	
 }
 #details {
 	text-align: center;
@@ -734,129 +820,121 @@ body {
 /***************************** Mingkay - End ********************************/
 
 /**************************** Shera-Star **************************************/
-.roshan
-{
+.roshan {
 	height: auto;
 	background-color: lightgray;
 	border-radius: 16px;
 	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
 }
-.roshan1
-{
+.roshan1 {
 	border-radius: 16px;
 }
-#detail-shera
-{
-	padding:5px 20px;
+#detail-shera {
+	padding: 5px 20px;
 }
-.kilas
-{
-	padding:0px 125px;
-	margin:auto;
+.kilas {
+	padding: 0px 125px;
+	margin: auto;
 }
 /**************************** Shera End ******************************************/
 /* --------------------------------------------------------------
 ----------------------------FLUFFY START--------------------------
 */
 
-.myPetWrapper{
-
-    /* position : absolute;
+.myPetWrapper {
+	/* position : absolute;
     left : 50%;
     top : 50%;
     transform : translate(-50%, -50%); */
-	margin-top : 20px;
-    width : 310px;
-    height : 500px;
-    background : lightgray;
-    background : linear-gradient(45deg, rgb(243, 84, 84), rgb(97, 206, 240), rgb(116, 197, 159));
-    display : flex;
-    justify-content: center;
-    align-items : center;
-    border-radius : 12px;
-    box-shadow : 0 2px 15px rgba(100, 220, 236, 0.555),
-                 0 8px 25px rgba(96, 235, 253, 0.3);
-
+	margin-top: 20px;
+	width: 310px;
+	height: 500px;
+	background: lightgray;
+	background: linear-gradient(45deg, rgb(243, 84, 84), rgb(97, 206, 240), rgb(116, 197, 159));
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 12px;
+	box-shadow: 0 2px 15px rgba(100, 220, 236, 0.555), 0 8px 25px rgba(96, 235, 253, 0.3);
 }
 
 .myPetCard {
-    width : 300px;
-    height : 490px;
-    background : white;
-    border-radius : 12px;
-    /* padding : 16px; */
-    text-align :left;
-    font-family : sans-serif;
+	width: 300px;
+	height: 490px;
+	background: white;
+	border-radius: 12px;
+	/* padding : 16px; */
+	text-align: left;
+	font-family: sans-serif;
 }
 
 .myPetImg {
-    width : 100%;
-    height : 200px;
-    background : url(/assets/images/fluffy1.jpg);
-    background-size : cover;
-    background-position: center;
-    background-repeat : no-repeat;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    box-shadow : 0 2px 15px rgba(100, 220, 236, 0.555);
+	width: 100%;
+	height: 200px;
+	background: url(/assets/images/fluffy1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	box-shadow: 0 2px 15px rgba(100, 220, 236, 0.555);
 }
 
 .myPetInfo {
-    padding : 0px 20px;
+	padding: 0px 20px;
 }
 
 .petName {
-	margin : 0;
-    letter-spacing: 2px;
-    display : block;
-    padding : 15px 0px 5px 0px;
-    color : rgb(167, 167, 167);
+	margin: 0;
+	letter-spacing: 2px;
+	display: block;
+	padding: 15px 0px 5px 0px;
+	color: rgb(167, 167, 167);
 }
 
 .myPetInfo hr {
-    color : lightgray;
-    margin-bottom : 10px;
+	color: lightgray;
+	margin-bottom: 10px;
 }
 
-
 .petName-2 {
-    color :rgba(253, 101, 127, 0.801);
+	color: rgba(253, 101, 127, 0.801);
 }
 
 .myPetInfo p {
-    line-height: 22px;
-    letter-spacing: 1.5px;
-    color : rgb(82, 82, 82);
+	line-height: 22px;
+	letter-spacing: 1.5px;
+	color: rgb(82, 82, 82);
 }
 
 .myPetInfo strong {
-    color : rgb(19, 19, 19);
+	color: rgb(19, 19, 19);
 }
 
 .meetMyPet {
-    display : flex;
-    justify-content : center;
-	padding : 10px 0px 0px 0px;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0px 0px 0px;
 }
 
 .meetMyPet button {
-    width : 80%;
-    padding : 8px 0px;
-    outline : none;
-    background : none;
-    border : none;
-    border-radius : 5px;
-    position : relative;
-    box-shadow :0px 1px 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    color : rgba(253, 101, 127, 0.801);
-    letter-spacing: 2px;
-	transition : 0.2s ease-in-out;
+	width: 80%;
+	padding: 8px 0px;
+	outline: none;
+	background: none;
+	border: none;
+	border-radius: 5px;
+	position: relative;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	color: rgba(253, 101, 127, 0.801);
+	letter-spacing: 2px;
+	transition: 0.2s ease-in-out;
 }
 
 .meetMeow:hover {
-	color : black;
-	box-shadow : 0px 1px 10px rgba(0, 0, 0, 0.2);
+	color: black;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
 }
 /* 
 -------------------------------------------------------------
@@ -864,73 +942,72 @@ body {
 -------------------------------------------------------------
 */
 
- /*******************************************************/
-  /**********************NAPSER-start************************/
-  /*******************************************************/
+/*******************************************************/
+/**********************NAPSER-start************************/
+/*******************************************************/
 
-  .mthakur-card {
-   width: 300px;
-   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-   height: 450px; 
-    
+.mthakur-card {
+	width: 300px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	height: 450px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 
-    margin: 20px;
-    padding: 20px;
-  }
+	margin: 20px;
+	padding: 20px;
+}
 
-  .napser-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-    width: 100%;
-  }
+.napser-image {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 50%;
+	width: 100%;
+}
 
-  .napser-info {
-    display: none;
-  }
+.napser-info {
+	display: none;
+}
 
-  .mthakur-card .napser-image img {
-    position: relative;
-    top: 20px;
-    z-index: 5;
-    height: 250px;
-    width: 250px;
-    border-radius: 100%;
-    transition: transform 0.9s;
-    border: 5px dashed teal;
-  }
+.mthakur-card .napser-image img {
+	position: relative;
+	top: 20px;
+	z-index: 5;
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
+	transition: transform 0.9s;
+	border: 5px dashed teal;
+}
 
-  .mthakur-card:hover .napser-image img { 
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    border: none;
-  }
+.mthakur-card:hover .napser-image img {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border: none;
+}
 
-  .mthakur-card:hover .napser-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 50%;
-    width: 100%;
-    margin-top: 30px;
-  }
+.mthakur-card:hover .napser-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 50%;
+	width: 100%;
+	margin-top: 30px;
+}
 
-  .napser-info strong {
-    color: teal;
-  }
+.napser-info strong {
+	color: teal;
+}
 
-  .napser-info p {
-    margin: 5px;
-  }
-  /*************************************************************/
-  /**********************NAPSER -- END ************************/
-  /*************************************************************/
-  /*************************************************************/
+.napser-info p {
+	margin: 5px;
+}
+/*************************************************************/
+/**********************NAPSER -- END ************************/
+/*************************************************************/
+/*************************************************************/
