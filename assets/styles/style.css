@@ -9,8 +9,8 @@ body {
   display: flex;
   flex-direction: column;
 
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
   justify-content: center;
   align-items: center;
 }
@@ -166,6 +166,99 @@ body {
 /********  👇 ADD YOUR OWN STYLES BELOW THIS COMMENT 👇 *********/
 /*********************************************************/
 
+/******************************simretB05 card**************************/
+.card-cho {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #143b1bc7;
+  width: 100%;
+  max-width: 300px;
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 4px rgba(2, 1, 1, 0.2);
+  border: 1px solid rgba(241, 238, 238, 0.2);
+  margin: 1rem;
+}
+.card-cho:hover {
+  box-shadow: 0px 4px 4px 4px rgba(3, 92, 51, 0.2);
+  border: 1px solid rgba(241, 238, 238, 0.2);
+}
+.card-cho__container {
+  display: flex;
+  overflow: hidden;
+  margin: 1rem;
+  width: 100%;
+  max-width: 290px;
+  height: 400px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.card-cho__img {
+  display: none;
+  transition: all 0.3s ease;
+}
+.card-cho__image {
+}
+.show {
+  display: block;
+}
+
+.card-cho__content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.card-cho__title {
+  color: wheat;
+}
+.card-cho__text {
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+  color: wheat;
+}
+.card-cho__text-2 {
+  display: none;
+}
+.btn-container {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  margin: 2rem;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.btn {
+  text-align: center;
+  background-color: wheat;
+  color: black;
+  width: 80px;
+  padding: 0.5rem;
+  font-size: 12px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px rgba(10, 235, 58, 0.2);
+  border: 1px solid rgba(241, 238, 238, 0.2);
+  text-decoration: none;
+  cursor: pointer;
+  transform: scaleX(1);
+  transition: all 0.2s;
+}
+.btn:hover {
+  transform: scaleX(1.1);
+  background-color: green;
+  color: wheat;
+  box-shadow: 0px 4px 4px rgba(16, 233, 124, 0.2);
+  border: 1px solid rgba(22, 219, 121, 0.2);
+}
+
+/******************************simretB05 card**************************/
+
 /******************************A-amon Card**************************/
 .amon-card {
   width: 100%;
@@ -260,7 +353,7 @@ body {
 
 /******************************oreo-card*****************************/
 .oreo-card {
-  background-image: url('../images/oreo.jpg');
+  background-image: url("../images/oreo.jpg");
   color: white;
   background-size: cover;
   padding: 10rem 0 0;
@@ -281,11 +374,7 @@ body {
 
 .oreo-content {
   padding: 1.5em;
-  background: linear-gradient(
-    hsl(0 0% 0% / 0),
-    hsl(20 0% 0% / 0.3) 20%,
-    hsl(0 0% 0% / 1)
-  );
+  background: linear-gradient(hsl(0 0% 0% / 0), hsl(20 0% 0% / 0.3) 20%, hsl(0 0% 0% / 1));
 }
 
 .oreo-title {
@@ -293,7 +382,7 @@ body {
 }
 
 .oreo-title::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 2px;
   width: 100%;
@@ -978,18 +1067,12 @@ body {
   width: 310px;
   height: 500px;
   background: lightgray;
-  background: linear-gradient(
-    45deg,
-    rgb(243, 84, 84),
-    rgb(97, 206, 240),
-    rgb(116, 197, 159)
-  );
+  background: linear-gradient(45deg, rgb(243, 84, 84), rgb(97, 206, 240), rgb(116, 197, 159));
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 12px;
-  box-shadow: 0 2px 15px rgba(100, 220, 236, 0.555),
-    0 8px 25px rgba(96, 235, 253, 0.3);
+  box-shadow: 0 2px 15px rgba(100, 220, 236, 0.555), 0 8px 25px rgba(96, 235, 253, 0.3);
   margin: 20px;
 }
 
@@ -1253,7 +1336,7 @@ button.my-git:hover {
 /*************************************************************/
 
 .nikki_container {
-  width: 300px;;
+  width: 300px;
   height: 200px;
   perspective: 500px;
   margin: 20px;
@@ -1268,12 +1351,9 @@ button.my-git:hover {
   transform-style: preserve-3d;
 }
 
-
 .nikki_card.nikki_is_flipped {
   transform: rotateY(180deg);
-  
 }
-
 
 .nikki_front,
 .nikki_back {
@@ -1281,12 +1361,10 @@ button.my-git:hover {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  
 }
 
-
 .nikki_back {
-  background-color:rgb(136, 34, 161);
+  background-color: rgb(136, 34, 161);
   color: rgba(247, 239, 239, 0.959);
   font-family: Arial, Helvetica, sans-serif;
   transform: rotateY(180deg);
@@ -1309,7 +1387,7 @@ button.my-git:hover {
 }
 
 .dog-card-main {
- margin: 20px;
+  margin: 20px;
 }
 
 .dog-card-box {
@@ -1348,7 +1426,7 @@ button.my-git:hover {
   border: 1px solid rgb(155, 155, 155);
   border-radius: 5px;
   padding: 5px 10px;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: bold;
   margin: 4px 4px 4px 0;
 }
@@ -1364,7 +1442,7 @@ button.my-git:hover {
   color: rgb(70, 70, 70);
   font-size: 1.6rem;
   cursor: pointer;
-  transition: all .8s;
+  transition: all 0.8s;
 }
 
 .arr_container img {
@@ -1383,7 +1461,7 @@ button.my-git:hover {
   height: 100%;
   border-radius: 23px;
   padding: 40px 0 0 20px;
-  transition: all .8s;
+  transition: all 0.8s;
 }
 
 .off {
@@ -1416,7 +1494,7 @@ button.my-git:hover {
   width: 36px;
   height: 36px;
   margin-right: 10px;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .left_container .icons img:hover {
@@ -1434,7 +1512,7 @@ button.my-git:hover {
   color: rgb(70, 70, 70);
   font-size: 1.6rem;
   cursor: pointer;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .cancel img {
@@ -1490,9 +1568,13 @@ button.my-git:hover {
   opacity: 0;
   transition: opacity 0.3s;
 }
-.jaebirds-card:hover .jaebirds-secret {opacity: 1;}
+.jaebirds-card:hover .jaebirds-secret {
+  opacity: 1;
+}
 
-.jaebirds-card ul {list-style-type: circle;}
+.jaebirds-card ul {
+  list-style-type: circle;
+}
 
 .jaebirds-card p {
   padding: 5px 20px;
@@ -1510,7 +1592,7 @@ button.my-git:hover {
 }
 .jaebirds-card a:before,
 .jaebirds-card a:after {
-  content: '';
+  content: "";
   position: absolute;
   height: 5px;
   width: 100%;
@@ -1537,23 +1619,23 @@ button.my-git:hover {
 
 @keyframes lineUp {
   0% {
-      transform-origin: 50% 100%;
-      transform: scale3d(1, 0.045, 1);
+    transform-origin: 50% 100%;
+    transform: scale3d(1, 0.045, 1);
   }
 
   50% {
-      transform-origin: 50% 100%;
-      transform: scale3d(1, 1, 1);
+    transform-origin: 50% 100%;
+    transform: scale3d(1, 1, 1);
   }
 
   51% {
-      transform-origin: 50% 0%;
-      transform: scale3d(1, 1, 1);
+    transform-origin: 50% 0%;
+    transform: scale3d(1, 1, 1);
   }
 
   100% {
-      transform-origin: 50% 0%;
-      transform: scale3d(1, 0.045, 1);
+    transform-origin: 50% 0%;
+    transform: scale3d(1, 0.045, 1);
   }
 }
 
