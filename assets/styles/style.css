@@ -1870,3 +1870,24 @@ button.my-git:hover {
 |---------------------------RAMBO STYLE END---------------------------|
 |----------------------------------------------------------------------------|
 */
+
+/* DND Jimmy's styling */
+.jimmy-img {
+    border-radius: 5%;
+    width: 288px;
+    height: 400px;
+}
+.jm-btn {
+    border-radius: 0%;
+    width: 60px;
+    height: 10px;
+    border: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background-color: red;
+}
+.jm-btn:hover {
+    border: rgb(0, 0, 0);
+    background-color: transparent;
+    color: black;
+}
+/* Jimmy's style */
