@@ -1874,23 +1874,6 @@ button.my-git:hover {
 /*=== TIGGER STYLE START ===*/
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: 100vh;
-
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin: 0;
-  font-family: "Red Hat Display", sans-serif;
-}
 
 .cat-container {
   display: flex;
