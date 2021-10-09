@@ -1,6 +1,6 @@
 # 👇 HacktoberPet by Junior Developer Group 👇
 
-Welcome to a Junior Developer Group's repository made for HacktoberFest 2021 challenge 👋
+Welcome to the Junior Developer Group's repository made for HacktoberFest 2021 challenge 👋
 
 # 📚 About Junior Developer Group challenge:
 
@@ -8,16 +8,18 @@ Welcome to a Junior Developer Group's repository made for HacktoberFest 2021 cha
 
 👉 To do that you need to use HTML/CSS and vanilla JS - without the help of third party plugins or libraries
 
-👉 When you're happy with your work send your Pull Request in and tag HacktoberFest Maintainers (a group) for review
+👉 When you're happy and satisfied with your work send your Pull Request in and tag HacktoberFest Maintainers (a group) for reviewing your pull request
 
 🔹
 🔹
 🔹
 🔹
 
-### **Before you start, please have a look at a couple of rules I've set up.**
+### **Before you start, please have a look at a couple of important rules I've set up.**
 
 ### **Not following the set rules might get your pull request rejected.**
+
+### **Work according to the rules mention below!**
 
 🔹
 🔹
@@ -54,7 +56,7 @@ Welcome to a Junior Developer Group's repository made for HacktoberFest 2021 cha
 
 - Make a new branch and name it after yourself
 - Leave a commit message explaining your changes
-- Tag 'HacktoberFest Maintainers' group as a reviewer
+- Tag 'HacktoberFest Maintainers' group for reviewing your pull request
 
 # We hope you enjoy the challenge 🙌
 
