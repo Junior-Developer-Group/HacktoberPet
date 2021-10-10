@@ -1935,60 +1935,60 @@ button.my-git:hover {
 /*******************************************************/
 
 .thomas-card {
-    height: 450px;
-    width: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    padding: 20px;
+  height: 450px;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
 }
 
 .thomas-card:hover {
-    animation: shake 0.5s;
-    animation-iteration-count: infinite;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
 }
 
 .dermott-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
 }
 
 .dermott-image img {
-    top: 20px;
-    z-index: 5;
-    height: 250px;
-    width: 250px;
-    border-radius: 100%;
-    border: 2px solid #0646d1;
+  top: 20px;
+  z-index: 5;
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  border: 2px solid #0646d1;
 }
 
 .thomas-info strong {
-    color: #0646d1;
+  color: #0646d1;
 }
 
 .thomas-info p {
-    margin: 5px;
+  margin: 5px;
 }
 
 @keyframes shake {
-	0% { transform: translate(1px, 1px) rotate(0deg); }
-	10% { transform: translate(-1px, -2px) rotate(-1deg); }
-	20% { transform: translate(-3px, 0px) rotate(1deg); }
-	30% { transform: translate(3px, 2px) rotate(0deg); }
-	40% { transform: translate(1px, -1px) rotate(1deg); }
-	50% { transform: translate(-1px, 2px) rotate(-1deg); }
-	60% { transform: translate(-3px, 1px) rotate(0deg); }
-	70% { transform: translate(3px, 1px) rotate(-1deg); }
-	80% { transform: translate(-1px, -1px) rotate(1deg); }
-	90% { transform: translate(1px, 2px) rotate(0deg); }
-	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
 
@@ -2002,38 +2002,38 @@ button.my-git:hover {
 
 /*Emma's style*/
 
-  .emma-card{
-    position: relative;
-    width: 300px;
-    height: 400px;
-    background: #A2416B;
-    margin: 0 auto;
-    border-radius: 4px;
-    box-shadow:0 2px 10px rgba(0,0,0,.2);
-  }
-  .emma-card:before,
-  .emma-card:after
+.emma-card{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #A2416B;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow:0 2px 10px rgba(0,0,0,.2);
+}
+.emma-card:before,
+.emma-card:after
   {
-    content:"";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 4px;
-    background: #fff;
-    transition: 0.5s;
-    z-index:-1;
-  }
-  .emma-card:hover:before{
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background: #fff;
+  transition: 0.5s;
+  z-index:-1;
+}
+.emma-card:hover:before{
   transform: rotate(20deg);
   box-shadow: 0 2px 20px rgba(0,0,0,.2);
-  }
-  .emma-card:hover:after{
+}
+.emma-card:hover:after{
   transform: rotate(10deg);
   box-shadow: 0 2px 20px rgba(0,0,0,.2);
-  }
-  .emma-card .emma-imgBx{
+}
+.emma-card .emma-imgBx{
   position: absolute;
   top: 10px;
   left: 10px;
@@ -2042,46 +2042,90 @@ button.my-git:hover {
   background: #222;
   transition: 0.5s;
   z-index: 1;
-  }
+}
 
-  .emma-card:hover .emma-imgBx
+.emma-card:hover .emma-imgBx
   {
-    bottom: 80px;
-  }
+  bottom: 80px;
+}
 
-  .emma-card .emma-imgBx img{
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-  }
+.emma-card .emma-imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-  .emma-card .emma-details{
-      position: absolute;
-      left: 10px;
-      right: 10px;
-      bottom: 10px;
-      height: 60px;
-      text-align: center;
-  }
+.emma-card .emma-details{
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  height: 60px;
+  text-align: center;
+}
 
-  .emma-card .emma-details h2{
-   margin: 0;
-   padding: 0;
-   font-weight: 600;
-   font-size: 20px;
-   color: #FEF1E6;
-   text-transform: uppercase;
-  }
+.emma-card .emma-details h2{
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FEF1E6;
+  text-transform: uppercase;
+}
 
-  .emma-card .emma-details h2 span{
+.emma-card .emma-details h2 span{
   font-weight: 500;
   font-size: 16px;
   color: #FEF1E6;
   display: block;
   margin-top: 5px;
-   }
+}
 
-  /*Emma's style ends*/
+/*Emma's style ends*/
+
+/******************************Macy Card**************************/
+.macy-card{
+  width: 350px;
+  aspect-ratio: 1.5/2;
+  background:rgb(204, 204, 204);
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.macy-card:hover > .hidden{
+  transform: translateY(0%);
+}
+
+.macy-card .image{
+  background: red;
+  width: 100%;
+  height: 100%;
+}
+
+.macy-card .image img{
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hidden{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: turquoise;
+  transform: translateY(100%);
+  transition: all .4s ease;
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  
+  padding: 1em 2em;
+}
+/******************************Macy Card**************************/
