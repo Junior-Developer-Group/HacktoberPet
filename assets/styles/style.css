@@ -2123,3 +2123,115 @@ button.my-git:hover {
 }
 
 /*Emma's style ends*/
+
+
+/* Promise's styles start */
+
+.shepherd { transition: .3s cubic-bezier(.3, 0, 0, 1.3) }
+
+.promise {
+  background-color: #fff;
+  bottom: 0;
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+  height: 300px;
+  left: 0;
+  margin: 20px;
+  overflow: hidden;
+  position: relative;
+  right: 0;
+  top: 0;
+  width: 300px;
+}
+
+.promise:hover {
+  height: 450px;
+  width: 300px;
+}
+
+.promise:hover .learn-container {
+  display: inline;
+  margin-top: 380px;
+}
+
+.promise:hover .dog_circle {
+  background-size: cover;
+  border-radius: 0;
+  margin-top: -130px;
+}
+
+.promise:hover h2 {
+  color: #fff;
+  margin-top: 100px;
+  padding: 5px;
+}
+
+.promise:hover p { margin-top: 300px }
+
+.dog_circle {
+  background: url('../images/germanshepherd.jpg') no-repeat center bottom;
+  background-color: #3487f7;
+  background-size: cover;
+  border-radius: 50%;
+  height: 400px;
+  margin-left: -75px;
+  margin-top: -270px;
+  position: absolute;
+  width: 450px;
+}
+
+.promise h2 {
+  color: #3487f7;
+  font-size: 24px;
+  font-weight: 200;
+  margin-top: 150px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 9999;
+}
+
+.promise p {
+  color: rgba(0,0,0,.6);
+  font-size: 100%;
+  font-weight: normal;
+  margin-top: 200px;
+  position: absolute;
+  text-align: center;
+  z-index: 9999;
+}
+
+.learn-container {
+  display: none;
+  margin-top: 320px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 9999;
+}
+
+.learn {
+  border-radius: 2px;
+  transition: 0.2s ease-out;
+  background-clip: padding-box;
+  border: 2px solid #3487f7;
+  border-radius: 2px;
+  color: #3487f7;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 400;
+  height: 36px;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  margin-bottom: 15px;
+  padding: 0 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.2s ease-out;
+}
+
+.learn:hover {
+  background-color: #3487f7;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #fff;
+}
+/* Promise's styles ends */
