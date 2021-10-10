@@ -121,6 +121,28 @@ body {
   margin-bottom: 60px;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
+footer a, footer p {
+  font-size: medium;
+  color: dimgray;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+footer a:hover {
+  color: #2bde4d;
+}
+
+
+
 /*********************************************************/
 
 /***********  ❌ WEBSITE STYLES -- DO NOT EDIT ❌*************/
