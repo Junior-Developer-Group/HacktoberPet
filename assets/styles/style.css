@@ -2350,5 +2350,254 @@ button.my-git:hover {
   padding: 1em 2em;
 }
 /******************************Macy Card**************************/
+
+/* Tom Lynch's Card (Freyja) */
+
+.tl-gradient-border {
+  position: relative;
+  border: 3px solid transparent;
+}
+.tl-gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  margin: -3px;
+  /*background: rgb(198,119,0);*/
+  /*background: linear-gradient(90deg, rgba(198,119,0,1) 0%, rgba(252,255,158,1) 58%, rgba(198,119,0,1) 100%);*/
+  background: rgb(139,89,13);
+  background: linear-gradient(65deg, rgba(139,89,13,1) 0%, rgba(252,255,158,1) 58%, rgba(139,89,13,1) 100%);
+}
+
+.tl-card {
+  position: relative;
+  width: 20rem;
+  height: 32rem;
+  background: #1e8ec7;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  font-family: 'Signika';
+  box-shadow: 0 8px 18px 7px rgb(0 0 0 / 20%),
+  0 6px 8px 5px rgb(0 0 0 / 10%),
+  0 2px 4px 0px rgb(0 0 0 / 30%);
+}
+
+.tl-card, .tl-card * {
+  box-sizing: border-box;
+}
+
+.tl-card .card-internals {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  z-index: 1;
+  padding: 0.5rem;
+}
+
+/* This section will basically serve as the background image. Using a pseudo element to allow for filters to
+    be applied, without affecting the other content in the main element .*/
+.tl-card .card-internals::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  background: white url('/assets/images/tl/card-bg-min.jpeg');
+  background-size: cover;
+  filter: grayscale(0) contrast(1.5) saturate(1.25);
+  z-index: 1;
+}
+
+.tl-card .card-internals > * {
+  position: relative;
+  z-index: 5;
+}
+
+.tl-card .tl-title {
+  --border-radius: 0.25rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  gap: 0.25rem;
+  height: 10%;
+}
+.tl-card .tl-title .name::before {
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+}
+
+.tl-card .tl-title .name {
+  position: relative;
+  flex: 1;
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+}
+
+.tl-card .tl-title .name .content {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 0.17rem 0.5rem;
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+}
+
+.tl-card .tl-title .name p {
+  margin: 0;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  line-height: 1.1;
+}
+.tl-card .tl-title .name p.role {
+  font-size: 0.8rem;
+}
+
+.tl-card .tl-title .flag-wrapper {
+  position: relative;
+  width: 4rem;
+  border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+.flag-wrapper::before {
+  border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+.tl-card .tl-title .flag {
+  --blue: #012B7F;
+  --yellow: #FBD115;
+  --red: #CE1226;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: var(--yellow);
+}
+.tl-card .tl-title .flag::before,
+.tl-card .tl-title .flag::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 33%;
+  height: 100%;
+}
+.tl-card .tl-title .flag::before {
+  left: 0;
+  background: var(--blue);
+}
+.tl-card .tl-title .flag::after {
+  right: 0;
+  background: var(--red);
+}
+
+
+.tl-card .card-internals .tl-image-wrapper {
+  --diameter: 11rem;
+  position: absolute;
+  width: var(--diameter);
+  height: var(--diameter);
+  left: 50%;
+  top: 7%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+.tl-image-wrapper .tl-image {
+  width: 100%;
+  height: 100%;
+}
+.tl-image-wrapper .tl-image img {
+  max-width: 100%;
+  border-radius: 50%;
+  filter: brightness(1.3) contrast(0.9) drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.75));
+}
+
+.tl-image-wrapper .border {
+  --extra-space: 1.5rem;
+  position: absolute;
+  width: calc(100% + var(--extra-space) * 2);
+  height: calc(100% + var(--extra-space) * 2);
+  top: calc(-1 * var(--extra-space));
+  left: calc(-1 * var(--extra-space));
+}
+
+.tl-image-wrapper .border img {
+  width: 100%;
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.75));
+}
+
+.tl-card .card-internals .tl-description {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  right: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.tl-description .tl-gradient-border::before {
+  border-radius: 0.25rem;
+}
+
+.tl-description .content {
+  height: 4rem;
+  background: white;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.35rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.75px;
+  text-align: center;
+}
+
+.tl-card .card-internals .tl-skills {
+  position: absolute;
+  left: 0.5rem;
+  right: 0.5rem;
+  top: 46%;
+  height: 11rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  z-index: 2;
+}
+
+.tl-card .card-internals .tl-skills .skill {
+  --border-radius: 0.25rem;
+  display: flex;
+  gap: 0.25rem;
+}
+.tl-card .card-internals .tl-skills .skill .skill-name {
+  flex: 1;
+}
+.tl-card .card-internals .tl-skills .skill .skill-name::before,
+.tl-card .card-internals .tl-skills .skill .skill-name .content {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  text-transform: uppercase;
+}
+
+.tl-card .card-internals .tl-skills .skill .skill-level {
+  width: 3rem;
+}
+.tl-card .card-internals .tl-skills .skill .skill-level::before,
+.tl-card .card-internals .tl-skills .skill .skill-level .content {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.tl-card .card-internals .tl-skills .skill .content {
+  background: white;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* Tom Lynch's Card - End */
+
         
 
