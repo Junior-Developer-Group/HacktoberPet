@@ -208,7 +208,7 @@ body {
     transition: all 0.3s ease;
 }
 
-.card-cho__image {}
+
 
 .show {
     display: block;
@@ -1870,3 +1870,17 @@ button.my-git:hover {
 |---------------------------RAMBO STYLE END---------------------------|
 |----------------------------------------------------------------------------|
 */
+.milo-card {
+background: rgb(187, 187, 187);
+border-radius: 5%;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.milo-card:hover {
+    transform: scale(1.1);
+}
+.milo-img {
+    border-radius: 5%;
+}
+.milo-txt {
+    text-align: center;
+}
