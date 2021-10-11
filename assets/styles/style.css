@@ -2236,6 +2236,53 @@ button.my-git:hover {
 }
 /* Promise's styles ends */
 
+
+/* Adhvaidh Style Starts */
+
+.adhvaidh-card {
+  background-color: rgb(255, 255, 255);
+  box-shadow:0 2px 5px 1px rgb(64 60 67 / 16%);
+  width: 300px;
+  height: 450px;
+  border-radius: 20px;
+  transition: ease-in 250ms;
+  margin: 20px;
+}
+
+.adhvaidh-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px 1px rgb(64 60 67 / 24%);
+}
+
+.inner-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hobbies-section span {
+  background-color: rgba(218, 216, 216, 0.74);
+  padding: 6px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.inner-card h1 {
+  cursor: default;
+}
+
+.inner-card img {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+/* Adhvaidh Style Ends */
+
+
 /******************************Macy Card**************************/
 .macy-card{
   width: 350px;
@@ -2280,3 +2327,4 @@ button.my-git:hover {
 }
 /******************************Macy Card**************************/
         
+
