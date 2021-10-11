@@ -2404,7 +2404,7 @@ button.my-git:hover {
   width: 100%;
   height: 100%;
   border-radius: 0.5rem;
-  background: white url('/assets/images/tl/card-bg-min.jpeg');
+  background: white url('../images/tl/card-bg-min.jpeg');
   background-size: cover;
   filter: grayscale(0) contrast(1.5) saturate(1.25);
   z-index: 1;
