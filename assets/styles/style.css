@@ -2101,3 +2101,37 @@ button.my-git:hover {
 }
 
 /*Emma's style ends*/
+
+/***************************** PARKER Start ********************************/
+
+.parker-card {
+  width: 100%;
+  max-width: 350px;
+  height: 450px;
+  border-radius: 100px 0px 100px 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 30px;
+  overflow: hidden;
+  
+}
+
+.parker-image {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  background-size: fit-content;
+  background-position: center;
+}
+
+.parker-text {
+  color: white;
+  text-align: center;
+  padding: 0 20px 0 20px;
+  line-height: 1.5rem;
+}
+
+.parker-border {
+  border: 5px dotted white;
+}
+
+/***************************** PARKER End ********************************/
