@@ -2341,12 +2341,12 @@ button.my-git:hover {
   background: turquoise;
   transform: translateY(100%);
   transition: all .4s ease;
-  
+
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  
+
   padding: 1em 2em;
 }
 /******************************Macy Card**************************/
@@ -2599,5 +2599,46 @@ button.my-git:hover {
 
 /* Tom Lynch's Card - End */
 
-        
-
+/* Mahesh's Card Start */
+.mahesh-card {
+  background-color: rgb(229, 220, 195);
+  width: 300px;
+  height: 100%;
+  border-radius: 5px;
+  border: .25px solid;
+  transition: ease-in-out  250ms;
+  margin: 20px;
+}
+.mahesh-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px 1px rgb(64 60 67 / 24%);
+}
+.div-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.div-card2 p span{
+  font-weight: bold;
+}
+.about span {
+  cursor: pointer;
+}
+.about h1 {
+  cursor: default;
+}
+.div-card img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+/* Mahesh's Card End */
