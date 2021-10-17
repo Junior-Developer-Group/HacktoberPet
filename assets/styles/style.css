@@ -1791,7 +1791,7 @@ button.my-git:hover {
   text-align: center;
   transition: 0.2s;
   cursor: pointer;
-  margin: 40px;
+  margin: 20px;
   border-bottom-right-radius: 19px;
   border-top-left-radius: 19px;
 }
@@ -1861,7 +1861,7 @@ button.my-git:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25vw;
+  max-width: 300px;
   background-color: hsl(225, 100%, 97%);
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
@@ -1869,6 +1869,7 @@ button.my-git:hover {
   border-top-right-radius: 1em;
   padding-bottom: 2em;
   box-shadow: 5px 5px 10px black;
+  margin: 20px;
 }
 
 .header {
@@ -2315,6 +2316,7 @@ button.my-git:hover {
   position: relative;
   overflow: hidden;
   border-radius: 30px;
+  margin: 20px;
 }
 
 .macy-card:hover > .hidden{
@@ -2644,7 +2646,7 @@ button.my-git:hover {
 /* Mahesh's Card End */
 
 /* Sagi's Card start */
-.container{
+.sagis-container {
   display: flex;
   justify-content: space-around;
   align-items:center;
@@ -2701,5 +2703,12 @@ button.my-git:hover {
  .gh-icon{
    width:25px;
    height:25px;
+ }
+
+ @media (max-width: 700px) {
+  .sagis-container{
+    flex-direction: column;
+    margin: 40px;
+  }
  }
 /*Sagi's Card end*/
