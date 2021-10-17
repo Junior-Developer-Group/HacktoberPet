@@ -2120,7 +2120,7 @@ button.my-git:hover {
   height: 20%;
 }
 
-h1 {
+.parker-h1 {
   border-bottom: 5px dotted white;
   padding: 20px;
 }
@@ -2135,7 +2135,7 @@ h1 {
   line-height: 1.5rem;
 }
 
-p {
+.parker-p {
   padding: 5px;
   border-bottom: 1px dotted white;
 }
