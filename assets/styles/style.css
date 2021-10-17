@@ -2712,3 +2712,45 @@ button.my-git:hover {
   }
  }
 /*Sagi's Card end*/
+
+/* Luna's card start */
+
+  #luna-card {
+    width: 300px;
+    border-radius: 10px;
+    background-color: #1C1C1C;
+    overflow: hidden;
+    box-shadow: 5px 10px 8px #888888;
+  }
+
+  #luna-card-text-container {
+    margin: 30px;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  #luna-card-subtitle {
+    color: #FF738E;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+  }
+  #luna-card-title {
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  #luna-card-description {
+    color: gray;
+  }
+
+  #barbara-github-icon {
+    color: white;
+  }
+
+  #luna-card-image{
+    background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%),url("https://i.imgur.com/QXGsQFg.jpg");
+    background-size: cover;
+    height: 280px;
+  }
+/* Luna's card end */
