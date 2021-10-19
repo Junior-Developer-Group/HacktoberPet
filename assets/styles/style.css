@@ -1419,11 +1419,11 @@ div.rock-det p {
   cursor: pointer;
 }
 
-button.my-git {
+buttonb.my-git {
   background-color: rgb(85, 156, 236);
 }
 
-button.my-git:hover {
+buttonb.my-git:hover {
   background-color: rgb(55, 124, 151);
 }
 
@@ -1832,7 +1832,7 @@ button.my-git:hover {
   font-weight: bold;
 }
 
-.rambo-foot button {
+.rambo-foot buttonb {
   background-color: #57412f;
   color: white;
   padding: 16px;
@@ -2805,7 +2805,7 @@ button.my-git:hover {
 }
 
 
-/* Devesh's card start*/
+/* Devesh's cardb start*/
 @import url('https://fonts.googleapis.com/css?family=Sarala:700|Exo+2:300');
 
 *,
@@ -2823,7 +2823,7 @@ button.my-git:hover {
   position: relative;
 }
 
-.card{
+.cardb{
   width: 320px;
   height: 450px;
   position: relative;
@@ -2833,7 +2833,7 @@ button.my-git:hover {
   cursor: pointer;
 }
 
-.card > div{
+.cardb > div{
   position: absolute;
   width: 320px;
   height: 450px;
@@ -2854,41 +2854,16 @@ button.my-git:hover {
   border-radius: 0 0 3px 34px;
 }
 
-.card:hover{
+.cardb:hover{
   transform: translateZ(-160px) rotateY( -90deg);
 }
 
-.card:hover .front{
+.cardb:hover .front{
   opacity: 0; 
 }
 
-.card:hover .right{
+.cardb:hover .right{
   opacity: 1; 
-}
-
-h1,h2{
-  margin: 0;
-  font-size: 38px;
-  letter-spacing: -.25px;
-  transform: translateX(-44px);
-  font-family: 'Sarala'; 
-  font-weight: 700;
-}
-
-h2{
-  font-size: 21px;
-  transform: translateX(-34px);
-}
-
-p{
-  margin: 0;
-  font-weight: 300;
-  font-size: 16px;
-}
-
-span{
-  margin-left: 13px;
-  opacity: .55;
 }
 
 img{
@@ -2899,7 +2874,7 @@ img{
   pointer-events: none;
 }
 
-.img-wrapper{
+.img-wrapperb{
   animation: float 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate;
   position: absolute;
   top: 300px; right: 0;
@@ -2916,7 +2891,7 @@ img{
   }
 }
 
-.card:hover ~ .img-wrapper img{
+.cardb:hover ~ .img-wrapper img{
   transform: scale(0.8) translateX(30%) translateY(90%) rotateZ(90deg);
 }
 
@@ -2940,7 +2915,7 @@ li:before{
   opacity: .55;
 }
 
-button{
+buttonb{
   position: absolute;
   right: 21px; 
   bottom: 34px;
@@ -2965,15 +2940,15 @@ button{
   transform-origin: right bottom;
 }
 
-.card:hover button{
+.cardb:hover buttonb{
    transform: scale(1) skewY(0);
 }
 
-.card:not(:hover) button{
+.cardb:not(:hover) buttonb{
 opacity: 0;
 }
 
-button:hover{
+buttonb:hover{
   background-position: left;
 }
 
