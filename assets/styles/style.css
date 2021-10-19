@@ -2825,7 +2825,7 @@ button.my-git:hover {
   font-size: 18px;
 }
 
-button {
+.cardss button {
   border: none;
   outline: 0;
   display: inline-block;
@@ -2838,12 +2838,12 @@ button {
   font-size: 18px;
 }
 
-a {
+.cardss a {
   text-decoration: none;
   font-size: 22px;
   color: black;
 }
 
-button:hover, a:hover {
+.cardss button:hover, a:hover {
   opacity: 0.7;
 }
