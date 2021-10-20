@@ -2830,7 +2830,7 @@ button.my-git:hover {
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: #000;
   text-align: center;
   cursor: pointer;
@@ -2845,5 +2845,44 @@ button.my-git:hover {
 }
 
 .cardss button:hover, a:hover {
+  opacity: 0.7;
+}
+
+/* Shubham's Card*/
+.cardsss {
+  box-shadow: 0 4px 8px 0 rgba(25, 0, 255, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+
+
+
+.titles {
+  color: rgb(98, 0, 255);
+  font-size: 18px;
+}
+
+.cardsss button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.cardsss a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.cardsss button:hover, a:hover {
   opacity: 0.7;
 }
