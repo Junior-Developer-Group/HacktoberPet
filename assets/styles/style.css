@@ -3014,3 +3014,34 @@ a:hover {
   position: relative;
   color: peachpuff;
 }
+
+
+/* hitesh second card */
+
+.hiteshcaed2{
+  border: solid;
+  border-radius: 5px;
+  border-radius: 7%;
+  border-width: 5px;
+  background-color:peachpuff
+  ;
+}
+
+.hiteshcard2img img{
+  border-radius: 7%;
+  
+}
+
+.hiteshcard2img:hover{
+  width: 320px;
+  
+}
+
+.hiteshcaed2:hover{
+  width: 310px;
+  background-color: rgb(220, 155, 99);
+  text-align: center;
+}
+.hiteshcard{
+  text-align: center;
+}
