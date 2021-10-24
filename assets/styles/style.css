@@ -127,7 +127,6 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 20px;
-
 }
 
 footer a,
@@ -141,8 +140,6 @@ footer p {
 footer a:hover {
   color: #2bde4d;
 }
-
-
 
 /*********************************************************/
 
@@ -192,19 +189,19 @@ footer a:hover {
 .kira-card {
   width: 300px;
   height: 500px;
-  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, .3);
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.3);
   background-color: #e7e7e7;
   overflow: hidden;
   border-radius: 5px;
 }
 
 .kira-img {
-  background-image: url("../images//kira.jpeg");
+  background-image: url('../images//kira.jpeg');
   width: 100%;
   height: 300px;
   background-position: center;
   background-size: cover;
-  transition: .3s all;
+  transition: 0.3s all;
 }
 
 .kira-img:hover {
@@ -254,7 +251,8 @@ footer a:hover {
   transition: all 0.3s ease;
 }
 
-.card-cho__image {}
+.card-cho__image {
+}
 
 .show {
   display: block;
@@ -435,9 +433,11 @@ footer a:hover {
 
 .oreo-content {
   padding: 1.5em;
-  background: linear-gradient(hsl(0 0% 0% / 0),
-      hsl(20 0% 0% / 0.3) 20%,
-      hsl(0 0% 0% / 1));
+  background: linear-gradient(
+    hsl(0 0% 0% / 0),
+    hsl(20 0% 0% / 0.3) 20%,
+    hsl(0 0% 0% / 1)
+  );
 }
 
 .oreo-title {
@@ -475,12 +475,12 @@ footer a:hover {
     transition-delay: 500ms;
   }
 
-  .oreo-content>*:not(.oreo-title) {
+  .oreo-content > *:not(.oreo-title) {
     opacity: 0;
     transition: opacity 500ms linear;
   }
 
-  .oreo-card:hover .oreo-content>*:not(.oreo-title) {
+  .oreo-card:hover .oreo-content > *:not(.oreo-title) {
     opacity: 1;
     transition-delay: 1000ms;
   }
@@ -1051,7 +1051,6 @@ footer a:hover {
 }
 
 @keyframes bounce {
-
   0%,
   20%,
   40%,
@@ -1182,10 +1181,12 @@ footer a:hover {
   width: 310px;
   height: 500px;
   background: lightgray;
-  background: linear-gradient(45deg,
-      rgb(243, 84, 84),
-      rgb(97, 206, 240),
-      rgb(116, 197, 159));
+  background: linear-gradient(
+    45deg,
+    rgb(243, 84, 84),
+    rgb(97, 206, 240),
+    rgb(116, 197, 159)
+  );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1796,15 +1797,17 @@ button.my-git:hover {
 */
 
 .rambo {
-  background-image: linear-gradient(43deg,
-      rgb(126, 121, 81),
-      rgb(255, 133, 68));
+  background-image: linear-gradient(
+    43deg,
+    rgb(126, 121, 81),
+    rgb(255, 133, 68)
+  );
   box-shadow: 5px 5px 15px rgb(0, 0, 0);
   font-family: 'Times New Roman', Times, serif;
   display: grid;
   grid-template-rows: 15em 16em;
   grid-template-columns: 21em;
-  grid-template-areas: 'image''text''foot';
+  grid-template-areas: 'image' 'text' 'foot';
   text-align: center;
   transition: 0.2s;
   cursor: pointer;
@@ -2188,11 +2191,10 @@ button.my-git:hover {
 
 /*Emma's style ends*/
 
-
 /* Promise's styles start */
 
 .shepherd {
-  transition: .3s cubic-bezier(.3, 0, 0, 1.3)
+  transition: 0.3s cubic-bezier(0.3, 0, 0, 1.3);
 }
 
 .promise {
@@ -2232,7 +2234,7 @@ button.my-git:hover {
 }
 
 .promise:hover p {
-  margin-top: 300px
+  margin-top: 300px;
 }
 
 .dog_circle {
@@ -2259,7 +2261,7 @@ button.my-git:hover {
 }
 
 .promise p {
-  color: rgba(0, 0, 0, .6);
+  color: rgba(0, 0, 0, 0.6);
   font-size: 100%;
   font-weight: normal;
   margin-top: 200px;
@@ -2305,7 +2307,6 @@ button.my-git:hover {
 
 /* Promise's styles ends */
 
-
 /* Adhvaidh Style Starts */
 
 .adhvaidh-card {
@@ -2348,9 +2349,7 @@ button.my-git:hover {
   object-fit: cover;
 }
 
-
 /* Adhvaidh Style Ends */
-
 
 /******************************Macy Card**************************/
 .macy-card {
@@ -2363,7 +2362,7 @@ button.my-git:hover {
   margin: 20px;
 }
 
-.macy-card:hover>.hidden {
+.macy-card:hover > .hidden {
   transform: translateY(0%);
 }
 
@@ -2386,7 +2385,7 @@ button.my-git:hover {
   left: 0;
   background: turquoise;
   transform: translateY(100%);
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 
   display: flex;
   flex-direction: column;
@@ -2414,7 +2413,12 @@ button.my-git:hover {
   /*background: rgb(198,119,0);*/
   /*background: linear-gradient(90deg, rgba(198,119,0,1) 0%, rgba(252,255,158,1) 58%, rgba(198,119,0,1) 100%);*/
   background: rgb(139, 89, 13);
-  background: linear-gradient(65deg, rgba(139, 89, 13, 1) 0%, rgba(252, 255, 158, 1) 58%, rgba(139, 89, 13, 1) 100%);
+  background: linear-gradient(
+    65deg,
+    rgba(139, 89, 13, 1) 0%,
+    rgba(252, 255, 158, 1) 58%,
+    rgba(139, 89, 13, 1) 100%
+  );
 }
 
 .tl-card {
@@ -2425,8 +2429,7 @@ button.my-git:hover {
   border-radius: 0.75rem;
   padding: 1rem;
   font-family: 'Signika';
-  box-shadow: 0 8px 18px 7px rgb(0 0 0 / 20%),
-    0 6px 8px 5px rgb(0 0 0 / 10%),
+  box-shadow: 0 8px 18px 7px rgb(0 0 0 / 20%), 0 6px 8px 5px rgb(0 0 0 / 10%),
     0 2px 4px 0px rgb(0 0 0 / 30%);
 }
 
@@ -2459,7 +2462,7 @@ button.my-git:hover {
   z-index: 1;
 }
 
-.tl-card .card-internals>* {
+.tl-card .card-internals > * {
   position: relative;
   z-index: 5;
 }
@@ -2521,9 +2524,9 @@ button.my-git:hover {
 }
 
 .tl-card .tl-title .flag {
-  --blue: #012B7F;
-  --yellow: #FBD115;
-  --red: #CE1226;
+  --blue: #012b7f;
+  --yellow: #fbd115;
+  --red: #ce1226;
   position: relative;
   width: 100%;
   height: 100%;
@@ -2549,7 +2552,6 @@ button.my-git:hover {
   background: var(--red);
 }
 
-
 .tl-card .card-internals .tl-image-wrapper {
   --diameter: 11rem;
   position: absolute;
@@ -2569,7 +2571,8 @@ button.my-git:hover {
 .tl-image-wrapper .tl-image img {
   max-width: 100%;
   border-radius: 50%;
-  filter: brightness(1.3) contrast(0.9) drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.75));
+  filter: brightness(1.3) contrast(0.9)
+    drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.75));
 }
 
 .tl-image-wrapper .border {
@@ -2665,7 +2668,7 @@ button.my-git:hover {
   width: 300px;
   height: 100%;
   border-radius: 5px;
-  border: .25px solid;
+  border: 0.25px solid;
   transition: ease-in-out 250ms;
   margin: 20px;
 }
@@ -2720,14 +2723,12 @@ button.my-git:hover {
   height: 400px;
   background-image: linear-gradient(60deg, pink, yellow, red);
   border-radius: 40px;
-
 }
 
 .deny-pic {
   width: 200px;
   height: 200px;
   border-radius: 50px;
-
 }
 
 .second {
@@ -2750,12 +2751,10 @@ button.my-git:hover {
 
 .text {
   font-family: 'Roboto', sans-serif;
-
 }
 
 .wrap-me {
   color: green;
-  ;
 }
 
 #click-me {
@@ -2765,12 +2764,14 @@ button.my-git:hover {
   border-style: hidden;
   background-image: linear-gradient(#ff9966, #ff5e62);
   padding: 10px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   cursor: pointer;
 }
 
 #click-me:hover {
-  background-image: linear-gradient(45deg, #F3904F, #3B4371);
+  background-image: linear-gradient(45deg, #f3904f, #3b4371);
 }
 
 .gh-icon {
@@ -2792,7 +2793,7 @@ button.my-git:hover {
 #luna-card {
   width: 300px;
   border-radius: 10px;
-  background-color: #1C1C1C;
+  background-color: #1c1c1c;
   overflow: hidden;
   box-shadow: 5px 10px 8px #888888;
 }
@@ -2803,7 +2804,7 @@ button.my-git:hover {
 }
 
 #luna-card-subtitle {
-  color: #FF738E;
+  color: #ff738e;
   margin: 0;
   padding: 0;
   font-weight: 500;
@@ -2824,17 +2825,15 @@ button.my-git:hover {
 }
 
 #luna-card-image {
-  background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%), url("https://i.imgur.com/QXGsQFg.jpg");
+  background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%),
+    url('https://i.imgur.com/QXGsQFg.jpg');
   background-size: cover;
   height: 280px;
 }
 
 /* Luna's card end */
 
-
-
 /* Aniket Dhokane css  */
-
 
 .flip-card {
   background-color: transparent;
@@ -2843,7 +2842,6 @@ button.my-git:hover {
   border: 1px solid #f1f1f1;
   perspective: 1000px;
 }
-
 
 .flip-card-inner {
   position: relative;
@@ -2858,7 +2856,6 @@ button.my-git:hover {
   transform: rotateY(180deg);
 }
 
-
 .flip-card-front,
 .flip-card-back {
   position: absolute;
@@ -2869,12 +2866,10 @@ button.my-git:hover {
   backface-visibility: hidden;
 }
 
-
 .flip-card-front {
   background-color: #bbb;
   color: black;
 }
-
 
 .flip-card-back {
   background-color: rgb(15, 139, 32);
@@ -2895,7 +2890,6 @@ button.my-git:hover {
   transform: translateY(20px);
   transform: translatex(20px);
   background-color: rgb(173, 212, 230);
-
 }
 
 .title {
@@ -2934,9 +2928,6 @@ a:hover {
   margin: auto;
   text-align: center;
 }
-
-
-
 
 .titles {
   color: rgb(98, 0, 255);
@@ -3015,33 +3006,106 @@ a:hover {
   color: peachpuff;
 }
 
-
 /* hitesh second card */
 
-.hiteshcaed2{
+.hiteshcaed2 {
   border: solid;
   border-radius: 5px;
   border-radius: 7%;
   border-width: 5px;
-  background-color:peachpuff
-  ;
+  background-color: peachpuff;
 }
 
-.hiteshcard2img img{
+.hiteshcard2img img {
   border-radius: 7%;
-  
 }
 
-.hiteshcard2img:hover{
+.hiteshcard2img:hover {
   width: 320px;
-  
 }
 
-.hiteshcaed2:hover{
+.hiteshcaed2:hover {
   width: 310px;
   background-color: rgb(220, 155, 99);
   text-align: center;
 }
-.hiteshcard{
+.hiteshcard {
   text-align: center;
 }
+
+/* Ashton's card start*/
+
+.ash-card-body {
+  --text-container-background-color: rgb(221, 221, 221);
+  --text-color: rgb(250, 156, 93);
+
+  margin: 0.25em;
+  width: 18em;
+  height: 30em;
+  display: flex;
+  border-radius: 8%;
+  border: 0.4em solid black;
+  overflow: hidden;
+  background-color: black;
+  box-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+
+.ash-img-container {
+  width: inherit;
+  height: inherit;
+}
+
+.ash-img {
+  position: relative;
+  top: -1.5em;
+  width: inherit;
+  height: inherit;
+  border-radius: 5%;
+  transition: all 0.3s ease-in;
+}
+
+.ash-img:hover {
+  transform: scale(110%);
+  transition: all 0.3s ease-out;
+}
+
+.ash-text-container {
+  min-width: 18em;
+  position: relative;
+  right: 18.2em;
+  top: 26.75em;
+  background-color: var(--text-container-background-color);
+  opacity: 90%;
+  max-height: 12em;
+  border: 0.2em solid var(--text-color);
+  border-radius: 30% 30% 8% 8%;
+  transition: all 0.3s ease-in;
+}
+
+.ash-text-container:hover {
+  transform: translateY(-8.5em);
+  transition: all 0.3s ease-out;
+}
+
+.ash-h1 {
+  margin: 0.3em 0em 0.5em 0em;
+  text-align: center;
+  color: var(--text-color);
+  text-shadow: 1px 2px 3px black;
+  border-bottom: 0.15em solid var(--text-color);
+  padding-bottom: 0.2em;
+}
+
+.ash-unordered-list {
+  margin: 0;
+  color: var(--text-color);
+}
+
+.ash-link-text {
+  color: var(--text-color);
+  text-align: center;
+}
+.ash-link-wiki {
+  color: orange;
+}
+/* Ashton's card end*/
