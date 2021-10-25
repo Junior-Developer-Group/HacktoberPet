@@ -2888,6 +2888,52 @@ button.my-git:hover {
 }
 
 
+/* Sheru's style start
+.main_sheru_card {
+  height: 500px;
+  width: 400px;
+  position: relative;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main_sheru_card img {
+  width: 100%;
+  height: 100%;
+}
+.sheru_info {
+  align-items: center;
+  position: absolute;
+  padding: 5%;
+  bottom: -200%;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transition: 1.2s;
+  background-color: rgb(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', 'sans-serif';
+  color: #1b1a1b;
+}
+
+.sheru_info h2 {
+  text-align: center;
+}  
+.main_sheru_card:hover .sheru_info {
+  transition: 1.2s;
+  bottom: 0;
+  cursor: pointer;
+}
+.main_sheru_card:hover {
+  transition-timing-function: ease;
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2),
+    0 12px 40px 0 rgba(0, 0, 0, 0.19);
+} */
+
+
+
 /* Sheru's style start */
 .main_sheru_card {
   height: 500px;
@@ -2931,3 +2977,160 @@ button.my-git:hover {
   box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2),
     0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+
+
+/* hitesh's dog */
+
+.hitesh-card-text-container {
+  text-align: center;
+  border-style: solid;
+  background-color: black;
+  border: solid;
+  border-color: rgb(193, 162, 162);
+}
+
+.hitesh-dog-img {
+  margin-top: 20px;
+  border-radius: 100%;
+  width: 250px;
+  height: 325px;
+  overflow: hidden;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.hitesh-dog-img :before {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -moz-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
+  box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
+}
+
+.hitesh-card-subtitle {
+  text-align: center;
+  position: relative;
+  color: peachpuff;
+}
+
+.hitesh-card-title {
+  text-align: center;
+  position: relative;
+  color: peachpuff;
+}
+
+.hitesh-card-description {
+  text-align: center;
+  position: relative;
+  color: peachpuff;
+}
+
+/* hitesh second card */
+
+.hiteshcaed2 {
+  border: solid;
+  border-radius: 5px;
+  border-radius: 7%;
+  border-width: 5px;
+  background-color: peachpuff;
+}
+
+.hiteshcard2img img {
+  border-radius: 7%;
+}
+
+.hiteshcard2img:hover {
+  width: 320px;
+}
+
+.hiteshcaed2:hover {
+  width: 310px;
+  background-color: rgb(220, 155, 99);
+  text-align: center;
+}
+.hiteshcard {
+  text-align: center;
+}
+
+/* Ashton's card start*/
+
+.ash-card-body {
+  --text-container-background-color: rgb(221, 221, 221);
+  --text-color: rgb(250, 156, 93);
+
+  margin: 0.25em;
+  width: 18em;
+  height: 30em;
+  display: flex;
+  border-radius: 8%;
+  border: 0.4em solid black;
+  overflow: hidden;
+  background-color: black;
+  box-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+
+.ash-img-container {
+  width: inherit;
+  height: inherit;
+}
+
+.ash-img {
+  position: relative;
+  top: -1.5em;
+  width: inherit;
+  height: inherit;
+  border-radius: 5%;
+  transition: all 0.3s ease-in;
+}
+
+.ash-img:hover {
+  transform: scale(110%);
+  transition: all 0.3s ease-out;
+}
+
+.ash-text-container {
+  min-width: 18em;
+  position: relative;
+  right: 18.2em;
+  top: 26.75em;
+  background-color: var(--text-container-background-color);
+  opacity: 90%;
+  max-height: 12em;
+  border: 0.2em solid var(--text-color);
+  border-radius: 30% 30% 8% 8%;
+  transition: all 0.3s ease-in;
+}
+
+.ash-text-container:hover {
+  transform: translateY(-8.5em);
+  transition: all 0.3s ease-out;
+}
+
+.ash-h1 {
+  margin: 0.3em 0em 0.5em 0em;
+  text-align: center;
+  color: var(--text-color);
+  text-shadow: 1px 2px 3px black;
+  border-bottom: 0.15em solid var(--text-color);
+  padding-bottom: 0.2em;
+}
+
+.ash-unordered-list {
+  margin: 0;
+  color: var(--text-color);
+}
+
+.ash-link-text {
+  color: var(--text-color);
+  text-align: center;
+}
+.ash-link-wiki {
+  color: orange;
+}
+/* Ashton's card end*/
+
+
